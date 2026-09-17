@@ -1,0 +1,879 @@
+Absolutely. I will **not rewrite, compress, reorder, “improve,” or replace anything from the existing prompt**. This is an **additive section only**. The previous prompt remains intact, including all the nuances from the earlier versions.
+
+Add the following **after the existing integration/calendar-related sections** (or simply append it to the very end so there is zero risk of disturbing anything):
+
+# 51. CALENDARS ARE REAL OPERATIONAL CALENDARS — NOT VISUAL DECKS
+
+This is an extremely important distinction.
+
+Whenever a section involves **dates, scheduling, publishing, shoots, production or deadlines**, it must behave like an actual operational calendar.
+
+Do NOT turn calendars into visually attractive decks that merely happen to contain dates.
+
+A calendar is fundamentally:
+
+**DATE-LED + ACTION-LED + CONNECTED TO REAL TIME**
+
+The visual design can still be beautiful and Plutonic, but the underlying experience must remain genuinely calendar-based.
+
+---
+
+# 52. CONTENT CALENDAR MUST BE A REAL CALENDAR
+
+The Content Calendar is not simply a visual representation of planned content.
+
+It is an actual working calendar.
+
+Its primary organising principle is:
+
+**WHEN IS THIS HAPPENING?**
+
+The user should immediately be able to understand:
+
+* What is being posted
+* On which date
+* On which platform
+* What campaign it belongs to
+* What format it is
+* What status it is in
+* Who owns it
+* What needs to happen before that date
+
+The calendar must support:
+
+### Month view
+
+A true calendar grid with dates.
+
+### Week view
+
+A more operational view of the upcoming week.
+
+### List view
+
+For quickly scanning all scheduled content.
+
+### Board view
+
+For workflow/status management where useful.
+
+The calendar should always retain its relationship to actual dates.
+
+---
+
+# 53. CONTENT CALENDAR MUST CONNECT TO GOOGLE CALENDAR
+
+The Content Calendar should be designed to connect to the **Google Calendar of the relevant account lead**.
+
+This is critical.
+
+The purpose is not simply to show a calendar inside the workspace.
+
+The purpose is to ensure that the account lead's actual calendar reflects the work happening inside the workspace.
+
+For example:
+
+If a content post is scheduled for:
+
+**18 September**
+
+the system should be capable of reflecting that date in the connected Google Calendar according to the configured integration and permissions.
+
+Similarly, if there is:
+
+**TWH Product Shoot — 22 September**
+
+that should be capable of appearing in the account lead's Google Calendar.
+
+The workspace and the account lead's calendar should therefore eventually operate as connected systems.
+
+---
+
+# 54. DATE CHANGES MUST PROPAGATE
+
+If a user changes a date inside the workspace:
+
+**September 18 → September 20**
+
+the connected Google Calendar event should be updated accordingly, where the integration and permissions allow it.
+
+Do not make the account lead manually update both places.
+
+The intended relationship is:
+
+**Workspace date changes**
+
+↓
+
+**Google Calendar reflects change**
+
+And where two-way sync is enabled:
+
+**Google Calendar date changes**
+
+↓
+
+**Workspace reflects change**
+
+---
+
+# 55. GOOGLE CALENDAR SHOULD NOT BECOME A SECOND SOURCE OF TRUTH BY ACCIDENT
+
+Define the source-of-truth behaviour clearly.
+
+For every calendar-connected object, determine whether:
+
+### Workspace controls the date
+
+or
+
+### Google Calendar controls the date
+
+or
+
+### Two-way synchronisation is enabled
+
+Do not allow silent conflicts.
+
+If a date changes in both places:
+
+surface the conflict.
+
+For example:
+
+> **This date changed in two places.**
+
+Workspace:
+
+**22 September**
+
+Google Calendar:
+
+**24 September**
+
+Allow the authorised user to resolve the conflict.
+
+---
+
+# 56. PRODUCTION MUST HAVE ITS OWN OPERATIONAL CALENDAR
+
+The **Creative & Production** area must also contain a real calendar.
+
+Do not treat production purely as briefs, cards or lists.
+
+Production is fundamentally date-dependent.
+
+The production calendar should allow the team to plan:
+
+* Shoot dates
+* Shoot preparation
+* Location bookings
+* Talent requirements
+* Photographer availability
+* Videographer availability
+* Stylist requirements
+* Producer requirements
+* Vendor requirements
+* Call-sheet dates
+* Production deadlines
+* Review dates
+* Revision dates
+* Final delivery dates
+
+The user should be able to look at the calendar and understand:
+
+> **What is happening on which day?**
+
+---
+
+# 57. SHOOT PLANNING MUST BE CALENDAR-FIRST
+
+For example:
+
+### TWH Furniture Shoot
+
+**22 September**
+
+The production calendar should make this immediately visible.
+
+Clicking the event should reveal:
+
+* Shoot objective
+* Campaign
+* Location
+* Talent
+* Photographer
+* Videographer
+* Stylist
+* Producer
+* Vendors
+* Call sheet
+* Deliverables
+* Related content
+* Related assets
+* Related Google Calendar event
+
+The calendar is the starting point.
+
+The detail view provides the operational depth.
+
+---
+
+# 58. PRODUCTION CALENDAR MUST CONNECT TO THE ACCOUNT LEAD'S GOOGLE CALENDAR
+
+Just like Content Calendar, Production Calendar must be capable of connecting to the account lead's Google Calendar.
+
+If a shoot date is added:
+
+**22 September**
+
+the system should be capable of creating/updating the corresponding calendar event in the account lead's connected Google Calendar.
+
+If the shoot moves:
+
+**22 September → 25 September**
+
+the Google Calendar event should update.
+
+If the event is cancelled:
+
+the connected calendar event should be updated or removed according to the configured behaviour.
+
+---
+
+# 59. ALL DATE-BASED WORK SHOULD FOLLOW THE SAME PRINCIPLE
+
+This principle must apply throughout the product.
+
+Whenever a meaningful date exists, consider whether it should connect to the account lead's calendar.
+
+Examples include:
+
+### Campaigns
+
+* Campaign launch
+* Campaign milestone
+* Campaign review
+* Campaign deadline
+
+### Content
+
+* Shoot
+* Draft
+* Review
+* Approval
+* Publish
+
+### Production
+
+* Pre-production
+* Shoot
+* Vendor booking
+* Review
+* Revision
+* Final delivery
+
+### Strategy
+
+* Strategy workshop
+* Strategic milestone
+* Review
+* Planning session
+
+### Client
+
+* Client meeting
+* Presentation
+* Approval
+* Decision deadline
+
+### Vendors
+
+* Vendor briefing
+* Vendor deadline
+* Delivery
+* Shoot
+
+### Scope
+
+* Service start
+* Service renewal
+* Monthly delivery cycles
+* One-off project dates
+
+Not every date needs to become a calendar event.
+
+Use judgement.
+
+But **every meaningful operational date must be capable of being connected to the calendar system.**
+
+---
+
+# 60. ONE CALENDAR SYSTEM, MULTIPLE CONTEXTUAL CALENDARS
+
+Do not create disconnected calendars.
+
+There can be different calendar views:
+
+**Content Calendar**
+
+**Production Calendar**
+
+**Campaign Calendar**
+
+**Strategy Calendar**
+
+but underneath them they should connect to a shared date/event model.
+
+The account lead should be able to see a consolidated view of relevant activity.
+
+For example:
+
+### THIS WEEK
+
+Monday
+Content review
+
+Tuesday
+TWH campaign presentation
+
+Wednesday
+Production prep
+
+Thursday
+TWH shoot
+
+Friday
+Reel approval
+
+This should be possible without manually maintaining five separate calendars.
+
+---
+
+# 61. MASTER ACCOUNT CALENDAR
+
+Create an optional consolidated:
+
+**Account Calendar**
+
+which brings together important events from:
+
+* Content
+* Campaigns
+* Production
+* Strategy
+* Client meetings
+* Vendor activity
+* Approvals
+* Important deadlines
+
+The account lead can therefore have one operational view:
+
+> **Everything I need to know about the account this week.**
+
+Keep this view clean.
+
+Do not dump every minor task into it.
+
+Only surface meaningful events.
+
+---
+
+# 62. GOOGLE CALENDAR EVENT METADATA
+
+Where technically supported, calendar events should contain useful context.
+
+For example:
+
+**TWH Furniture Shoot**
+
+Calendar event could contain:
+
+* Campaign
+* Shoot location
+* Key participants
+* Related workspace link
+* Relevant files
+* Brief
+* Deliverables
+* Notes
+* Contact/vendor information
+
+The goal is that the account lead can move between:
+
+**Google Calendar → Workspace**
+
+without losing context.
+
+---
+
+# 63. ACCOUNT LEAD IS THE CENTRAL CALENDAR USER
+
+The system should support assigning an:
+
+**Account Lead**
+
+to the account.
+
+The account lead should have a connected Google Calendar.
+
+Calendar-based events should be associated with the relevant account lead.
+
+If another team member owns a specific piece of work, their calendar can also be supported later, but the account lead remains the primary account-level calendar connection.
+
+---
+
+# 64. DATE CREATION SHOULD BE EASY
+
+When creating a campaign, content item, production item or important decision:
+
+date entry should be simple.
+
+For example:
+
+**Publish date**
+
+**Shoot date**
+
+**Review date**
+
+**Deadline**
+
+When a meaningful date is entered, the interface should make it clear that the date can sync to the connected calendar.
+
+Do not make calendar synchronisation a complicated secondary workflow.
+
+---
+
+# 65. CALENDAR SYNC STATUS
+
+For connected calendar events, show subtle metadata such as:
+
+**Synced to Google Calendar**
+
+**Syncing**
+
+**Not synced**
+
+**Calendar connection required**
+
+**Sync issue**
+
+Do not make this visually dominant.
+
+It exists to build confidence.
+
+---
+
+# 66. CALENDAR CONFLICTS AND DUPLICATES
+
+Do not create duplicate calendar events every time a record changes.
+
+Every workspace calendar event should have a stable external calendar-event ID where appropriate.
+
+The system should understand:
+
+**This workspace event = this Google Calendar event.**
+
+If the workspace event is updated, update the existing Google Calendar event.
+
+Do not create another one.
+
+---
+
+# 67. CALENDAR DELETION
+
+If a workspace event is deleted:
+
+do not automatically delete an external Google Calendar event unless the user has explicitly configured that behaviour and permissions allow it.
+
+Provide sensible rules such as:
+
+**Remove from workspace only**
+
+or
+
+**Remove from workspace + connected calendar**
+
+depending on the event type and permissions.
+
+For important events, consider confirmation.
+
+---
+
+# 68. CALENDAR + PULSE CONNECTION
+
+The calendar must feed the main **Pulse / Current** page.
+
+For example:
+
+### NEXT UP
+
+**Tomorrow — TWH Product Shoot**
+
+**Friday — Reel 04 goes live**
+
+**Monday — Client Review**
+
+The Pulse should derive this information from the actual connected workspace calendar/event data.
+
+Do not manually duplicate it.
+
+---
+
+# 69. CALENDAR + CONTENT CONNECTION
+
+The Content Calendar should connect directly to:
+
+* Campaign
+* Creative
+* Production
+* Asset
+* Approval
+* Google Calendar
+
+For example:
+
+**September 22**
+
+→ TWH Furniture Shoot
+
+→ Campaign: Autumn Furniture
+
+→ Content: Reel 01 / Reel 02 / Reel 03
+
+→ Production: Shoot
+
+→ Assets: Expected outputs
+
+→ Account Lead Calendar: September 22
+
+This is the level of connectedness expected.
+
+---
+
+# 70. CALENDAR + PRODUCTION CONNECTION
+
+Similarly:
+
+**Production Shoot**
+
+→ Calendar
+
+→ Campaign
+
+→ Brief
+
+→ Vendors
+
+→ People
+
+→ Deliverables
+
+→ Content
+
+→ Assets
+
+Everything should connect.
+
+Changing the shoot date should update the relevant connected systems where configured.
+
+---
+
+# 71. CALENDAR IS NOT DECORATION
+
+This is non-negotiable.
+
+Do not build a beautiful calendar that is effectively a visual poster.
+
+The calendar must be:
+
+**interactive**
+
+**date-driven**
+
+**editable**
+
+**drag-and-drop**
+
+**connected**
+
+**syncable**
+
+**searchable**
+
+**filterable**
+
+**operational**
+
+The visual design should make it beautiful.
+
+The underlying behaviour should make it useful.
+
+---
+
+# 72. DRAGGING A DATE SHOULD ACTUALLY CHANGE THE WORK
+
+For example:
+
+Drag:
+
+**TWH Shoot — 22 Sep**
+
+to:
+
+**25 Sep**
+
+The system should:
+
+1. Change the production date.
+2. Update the related content/production dependencies where appropriate.
+3. Update the connected Google Calendar event.
+4. Update Pulse.
+5. Preserve the activity history.
+6. Surface any resulting conflicts/dependencies.
+
+Do not make drag-and-drop purely cosmetic.
+
+---
+
+# 73. DATE DEPENDENCIES
+
+The system should eventually understand dependencies.
+
+Example:
+
+**Shoot → Editing → Internal Review → Client Review → Approval → Publish**
+
+If the shoot moves by three days, the system should be capable of identifying affected downstream dates.
+
+Do NOT automatically move everything without permission.
+
+Instead:
+
+> **Moving this shoot may affect 4 upcoming dates.**
+
+Then show:
+
+* Editing
+* Review
+* Approval
+* Publish
+
+and allow the authorised user to decide what should move.
+
+---
+
+# 74. THE ACCOUNT LEAD SHOULD ALWAYS KNOW WHAT IS COMING
+
+The account lead should not have to open five pages to understand the next few days.
+
+The workspace should make it easy to see:
+
+**Today**
+
+**Tomorrow**
+
+**This week**
+
+**Next week**
+
+with meaningful account activity.
+
+This should be powered by the actual calendar/event system.
+
+---
+
+# 75. FINAL CALENDAR PRINCIPLE
+
+The product should behave as though:
+
+> **The workspace is the brain of the account.**
+
+> **Google Calendar is the account lead's time layer.**
+
+The two should be connected.
+
+The workspace understands **what the work is**.
+
+The calendar understands **when the work happens**.
+
+Together they create:
+
+**WHAT + WHEN + WHO + WHY + WHERE**
+
+That is the intended experience.
+
+---
+
+# 76. NON-NEGOTIABLE CALENDAR TEST
+
+Before considering the system complete, test this exact scenario:
+
+### Scenario
+
+An account lead opens the TWH workspace.
+
+They create:
+
+**TWH Furniture Shoot**
+
+Date:
+
+**22 September**
+
+The system should be capable of:
+
+**Creating the production event**
+
+↓
+
+**Showing it in the Production Calendar**
+
+↓
+
+**Showing it in the Account Calendar**
+
+↓
+
+**Associating it with the TWH campaign**
+
+↓
+
+**Associating relevant content**
+
+↓
+
+**Showing it in Pulse**
+
+↓
+
+**Creating/updating the connected Google Calendar event**
+
+↓
+
+**Allowing the account lead to open the workspace directly from Google Calendar**
+
+Then test:
+
+### Change the shoot date
+
+22 September → 25 September
+
+The system should propagate the change through all relevant connected surfaces.
+
+Then test:
+
+### Add a new content publish date
+
+The Content Calendar updates.
+
+The relevant Google Calendar event updates/creates.
+
+Pulse updates.
+
+Activity history records the change.
+
+This is what **“live”** means.
+
+---
+
+# 77. FINAL SYSTEM PRINCIPLE — TIME IS DATA
+
+Dates must not be treated as decoration.
+
+A date is a piece of operational data.
+
+Therefore:
+
+**Date entered → event**
+
+**Date changed → update**
+
+**Date moved → propagate**
+
+**Date cancelled → reflect**
+
+**Date conflicts → flag**
+
+**Date completed → record**
+
+**Date passed → preserve in history**
+
+The system should treat time as seriously as it treats campaigns, content and assets.
+
+---
+
+# 78. DO NOT LOSE THE ORIGINAL PRODUCT PRINCIPLES
+
+All of the above is ADDITIVE.
+
+Do not remove, simplify, replace or reinterpret any existing requirement in this prompt.
+
+The existing requirements around:
+
+* Plutonic visual language
+* TWH Canva source material
+* Plutonic rate cards
+* Brand Guidelines
+* Research
+* Strategy
+* Campaigns
+* Content
+* Creative & Production
+* Assets
+* Scope
+* Decisions
+* Files
+* Permissions
+* CRUD
+* Reordering
+* Sorting
+* Filtering
+* Search
+* Integrations
+* Activity
+* Memory
+* Cross-page relationships
+* Internal management
+* Client experience
+* Premium design
+* Minimalism
+* Human copy
+* Distinct page purposes
+
+remain fully intact.
+
+These calendar requirements simply make the system **more operational and genuinely live**.
+
+---
+
+# FINAL CALENDAR INTENT
+
+Do not build a calendar because a modern dashboard “should have a calendar.”
+
+Build it because **the work happens in time**.
+
+Content happens on dates.
+
+Shoots happen on dates.
+
+Approvals happen on dates.
+
+Campaigns launch on dates.
+
+Meetings happen on dates.
+
+Deliverables are due on dates.
+
+Therefore, the workspace must understand time.
+
+And because the account lead actually lives in Google Calendar, the workspace must eventually live alongside — and connect directly to — that calendar.
+
+> **If the date changes, the system changes.**
+>
+> **If the work changes, the calendar changes.**
+>
+> **If something new enters the account, the right people should see it in the right place.**
+>
+> **The calendar is part of the operating system, not a decoration on top of it.**

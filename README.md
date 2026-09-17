@@ -1,35 +1,52 @@
 # Plutonik · TWH Workspace
 
-Private internal planning dashboard for the TWH account, built from the user's brief and reviewed Canva sources.
+An internal account workspace built from the user’s TWH brief and reviewed Canva decks. The source prompts are preserved verbatim in `docs/brief/`; the expanded calendar requirements are additive.
 
-## Included
+## Current experience
 
-- Brand and business brief with the 65% retail / 35% bespoke priority.
-- Research records for eight client-named competitors; unresearched fields remain empty.
-- Grouped navigation: Workspace, Brand, Plan, Create, Manage and Internal.
-- Overview aggregates inputs, decisions, actions, blockers, upcoming dates and confirmed decisions across workstreams.
-- Separate Strategy and Launch destinations, with positioning, audience, messaging and opportunity tabs inside Strategy.
-- Production plans, an asset register linked to content, and team allocation.
-- 15 proposed core content concepts and 15 proposed trial variants with source links.
-- Editable vendor directory, service scope, budget assumptions, document links, decisions and reports.
-- D1-backed records, optimistic revision checks and unsaved-draft protection.
-- Owner-private Sites access, protected page and API, source-link validation.
-- Personal Private Planning notes, filtered and write-protected by authenticated account identity on the server. These notes never enter Overview. Other sections follow site access; this does not implement agency/client role permissions for the rest of the workspace.
+- Pulse: current account direction, dated upcoming work, open inputs/decisions and actual activity. It uses the same records as the working pages.
+- Brand Guidelines: editable chapters, logo upload, colour palette/reordering and font specimens with WOFF2 upload. TWH’s exact approved palette and fonts are not invented.
+- Research: market, audience, competitors, trends and reference bank, with observation → interpretation → implication → source. Seeded audience ideas are labelled hypotheses.
+- Strategy: narrative direction, readiness gates, measures and an editable six-month roadmap.
+- Campaigns & Launches: stages, briefs and links to content, production, assets and services.
+- Content, Production and Account calendars: month/week/list/board views; search and filters; actual date edits and native drag/drop; retained dates in the workflow board; configurable list columns, widths and order stored per user.
+- Dependency review: moving a dated record identifies affected dates and asks which should move. No downstream dates move by default.
+- Assets: real R2 uploads, images/video/PDF previews, YouTube/Vimeo/Drive/Instagram embeds, collections, tags and version relationships. Uploads are limited to 25 MB; larger media uses a source link.
+- Scope: proposed/approved fees and service definitions, with progress derived from linked deliverables in the selected cycle. Internal budgets and vendor costs are managed separately.
+- Team & Partners, Files, Decisions, Reporting and Internal Management each use a layout suited to their purpose.
+- Shared record editor, relationships, duplicate/archive/trash/restore, persistent ordering, global search, feedback and activity history. Clients can respond to shared work awaiting their approval.
+- Simran is the confirmed account lead. The intended Google account is `simranagrawal351@gmail.com`.
 
-The calendar records planning and publishing status; it does not publish to social platforms. Canva and Drive links do not automatically sync. Vendor contacts, dates, final copy, approvals and analytics require real inputs. Commercials remain proposals or rate-card starting prices until agreed.
+## Persistence and permissions
 
-## Data
+D1 holds records, audit history, member permissions, user view preferences and calendar-event mappings. R2 holds uploads. Saved records override the server-only brief seed. Internal seed data is not shipped in the client bundle. Optimistic versions reject stale writes and stale approvals.
 
-`app/data.ts` provides the initial brief. Saved overrides and new records live in D1. Revisions prevent stale writes. Generated schema migrations are in `drizzle/`; do not modify applied migrations.
+The verified Site owner is the administrator. Other identities receive explicit agency/client area assignments. Client records must also be deliberately marked shared; internal sections and sensitive fields are filtered on the server. Personal notes and their discussions are restricted to their owner. Workspace permissions do not change the private Site’s external access list or send invitations.
 
-`app/workflow.ts` assigns existing brief records to workstreams without overwriting saved values. Linked decisions replace their related requirement in the attention count; completed and archived items remain accessible in workstream history. Old combined-section hash links resolve to the corresponding new destination.
+Contextual calendars derive stable `record-id--date-field` events from a shared date model. Changes propagate to all views, and open workspaces check for other saved edits every 20 seconds. Records and their history are retained when archived or moved to trash.
 
-## Local workflow
+## Google Calendar: implemented, not yet authorised
 
-Use the Sites plugin workflow for builds and publication. The development server runs on loopback. The starter's local sign-in simulation is documented in `app/chatgpt-auth.ts` and the Sites skill. No development database records are shipped in the deployment archive.
+The server includes OAuth with PKCE, short-lived single-use state, account-email verification, encrypted refresh tokens, stable event IDs, conditional updates, source-of-truth rules, conflict resolution and explicit deletion choices. API calls operate against the assigned lead’s primary calendar. Workspace edits sync after save when enabled for the record; Google changes are checked while the workspace is open and via **Sync now**.
 
-## Validation completed
+The connection is currently **not active**. Configure `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` and a random `INTEGRATION_SECRET` of at least 32 characters as server secrets, enable Google’s Calendar API, register the site’s `/api/calendar/callback` address, then have Simran authorise through Integrations. Never commit these secrets. Live Google create/update and two-way sync require that setup and still need a real-account verification run. No external events were created during local testing.
 
-Type checking and production build; responsive overview and mobile navigation; local authenticated API read/write/reload; stale revision conflicts; invalid links and negative cost rejection; scheduled-date and published-link requirements; UI save; unsaved-draft discard protection; WebMCP valid and invalid record actions.
+Background webhook/push delivery is not configured. Google changes made while the workspace is closed are reconciled after it is reopened and sync runs. Canva/Drive source links work now; automated Sheets/Excel/Drive imports and source-field mapping are future adapters, not active connections.
 
-For the workstream revision: five workflow tests cover attention aggregation, duplicate requirements, resolved/archived work and private-note exclusion. Local API checks verify asset/launch/decision/private-note persistence, date and workstream validation, and rejection of reads and writes to another account's private notes. Browser checks cover the separate Strategy destination, Overview decision links and uninterrupted file search.
+## Source and operating boundaries
+
+The 65% retail / 35% bespoke strategy, 15 core pieces and separately scoped 15 trial reels are preserved. Core retainer, rate-card references and optional services remain proposals or starting prices until agreed. Strategy/copy/management costs must be accounted for before the internal remaining balance is treated as profit.
+
+Founder-led production, trade relationships, staged awareness/boosting/performance, website-readiness gates, AI/product accuracy and offline alignment remain in the source-backed seed. Contacts, actual dates, approvals, exact TWH identity assets and reporting results require real inputs.
+
+Scheduling records does not publish to social platforms. External embeds follow their original sharing permissions. File revisions create new uploaded assets and link version records; the history is retained.
+
+## Validation
+
+Type checking and production build pass. Thirteen focused tests cover the shared event model, Sep 22 → Sep 25 rescheduling, dependency detection without mutation, real-date validation, sync conflict rules, calendar metadata, media URL handling, role/private-field restrictions and attention aggregation.
+
+Local authenticated API checks cover campaign/shoot/content creation, persistent rescheduling, unchanged dependent dates, stale-write rejection, pending Google status with a stable mapping, activity, feedback, R2 uploads, byte ranges, authentication, deletion and restore. Temporary QA records are removed separately from user-created work. The Research and Calendar layouts and production editor have been inspected in the existing browser preview.
+
+## Development and release
+
+Use the Sites plugin’s build and publication workflow. Apply generated migrations in order (`drizzle/0000…`, then `0001…`); never edit applied migrations. Local development uses the starter’s sign-in simulation; the production build does not grant that development identity administrator access. Development databases, uploads and secrets are excluded from the release archive.

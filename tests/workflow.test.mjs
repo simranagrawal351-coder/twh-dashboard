@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { seed } from '../app/data.ts';
+import { seed } from '../app/server/seed.ts';
 import { attentionRecords, attentionKind, areaFor, enrichRecord } from '../app/workflow.ts';
 
 test('the brief has six distinct open actions, with three inputs waiting on TWH',()=>{

@@ -1,0 +1,553 @@
+# MVP IMPLEMENTATION ORDER
+
+**IMPORTANT: This section defines implementation priority.**
+
+Do not interpret the full master prompt as requiring every advanced capability to be fully live in Version 1.
+
+The product should be built in **layers**, with the core workspace and intelligence foundation working properly before advanced integrations and automation are added.
+
+The priority is:
+
+**FOUNDATION → CORE WORKSPACE → INTELLIGENCE → SEARCH → INTEGRATIONS → AUTOMATION**
+
+The MVP should feel genuinely useful and alive even before every external integration is connected.
+
+---
+
+# PHASE 1 — CORE PRODUCT FOUNDATION
+
+Build the underlying product foundation first.
+
+### Must work:
+
+* Authentication
+* User roles
+* Client / account structure
+* Workspace structure
+* Persistent database
+* Stable IDs for every record
+* Permissions
+* Create / edit / delete
+* Archive
+* Duplicate
+* Search
+* Filters
+* Sorting
+* Reordering
+* Activity history
+* Relationships between records
+* File storage
+* Basic notifications
+* Responsive desktop-first experience
+
+Every object created in the workspace should have a stable identity and relationship structure.
+
+Do not build the AI layer on top of temporary/mock data structures.
+
+---
+
+# PHASE 2 — CORE BRAND OS
+
+Build the essential workspace experience.
+
+Prioritise:
+
+1. **Pulse**
+2. **Brand Guidelines**
+3. **Research**
+4. **Strategy**
+5. **Campaigns**
+6. **Content Calendar**
+7. **Creative & Production**
+8. **Assets**
+9. **Scripts**
+10. **Decisions**
+11. **Scope**
+12. **Files**
+13. **Team**
+
+The exact navigation can remain visually minimal, but these underlying systems should exist.
+
+The most important requirement is that they are **connected**, not isolated pages.
+
+For example:
+
+**Strategy → Campaign → Content → Script → Production → Asset**
+
+should already work in the MVP.
+
+---
+
+# PHASE 3 — THE DATA / RELATIONSHIP LAYER
+
+Before advanced AI, make the workspace graph work properly.
+
+Every major object should be able to relate to another object.
+
+Examples:
+
+* Campaign → Strategy
+* Content → Campaign
+* Script → Content
+* Production → Campaign
+* Production → Content
+* Asset → Production
+* Asset → Content
+* Decision → Campaign
+* Decision → Strategy
+* Meeting → Decisions
+* Meeting → Actions
+* Scope → Campaign
+* File → any relevant record
+
+This relationship layer is extremely important because the later AI Search depends on it.
+
+---
+
+# PHASE 4 — UNIVERSAL DOCUMENT INTELLIGENCE
+
+Once the core workspace works, introduce the first AI capability.
+
+Start with:
+
+**Upload → Understand → Extract → Review → Confirm → Update**
+
+Support:
+
+* PDFs
+* Word documents
+* Presentations
+* Meeting notes
+* Meeting transcripts
+* Briefs
+* Research
+* Strategy documents
+* Content documents
+* Scripts
+* Spreadsheets
+
+Initially prioritise:
+
+### Meeting Intelligence
+
+and
+
+### Brief / Document Intelligence
+
+The AI should identify:
+
+* Decisions
+* Approvals
+* Actions
+* Owners
+* Dates
+* Deliverables
+* Changes
+* Unresolved items
+
+Then show the user what was found before modifying the workspace.
+
+OpenAI's current API supports functions and file search, which can support this kind of structured AI workflow.
+
+---
+
+# PHASE 5 — PULSE + AI ASK
+
+This should be one of the **hero MVP features**.
+
+Add the prominent but minimal:
+
+**Ask anything about this account**
+
+entry point inside Pulse.
+
+The first version should be able to answer questions from the workspace database and uploaded documents.
+
+Examples:
+
+> “What did we approve last week?”
+
+> “What are we waiting for?”
+
+> “What is happening with the furniture campaign?”
+
+> “What was discussed in the last meeting?”
+
+> “Show me the latest script.”
+
+> “Who owns this?”
+
+> “What changed?”
+
+Every answer should show the underlying source where possible.
+
+The goal is for the user to immediately experience:
+
+> **“This workspace actually knows my account.”**
+
+---
+
+# PHASE 6 — SOURCE FINDING
+
+Once basic AI Search works, add deeper source retrieval.
+
+The AI should be able to answer:
+
+> “Where did this come from?”
+
+> “Find the research behind this.”
+
+> “Where is the original brief?”
+
+> “Which document contains this?”
+
+> “What was the original thinking behind this campaign?”
+
+This should connect:
+
+**Research → Strategy → Campaign → Content → Source**
+
+and display provenance.
+
+This is particularly important for **Research and Strategy**.
+
+---
+
+# PHASE 7 — GOOGLE DRIVE / FILE INTELLIGENCE
+
+Connect Google Drive after the internal workspace search works.
+
+The system should be able to:
+
+* Detect relevant files
+* Retrieve metadata
+* Identify account relevance
+* Associate files with the correct client
+* Search files
+* Find latest versions
+* Link files to workspace records
+* Surface source documents
+
+Do not attempt full automatic ingestion of everything initially.
+
+Start with:
+
+**Search → Retrieve → Associate → Link**
+
+Then expand into automated sync.
+
+---
+
+# PHASE 8 — GMAIL INTELLIGENCE
+
+Next connect Gmail.
+
+Prioritise **read/search intelligence** before automated email actions.
+
+The AI should be able to answer:
+
+> “What did the client say about this?”
+
+> “What did the designer send last?”
+
+> “What was the latest feedback?”
+
+> “Did the client approve this?”
+
+> “What happened after the meeting?”
+
+> “What did we promise?”
+
+The system should respect permissions and distinguish email evidence from confirmed workspace decisions.
+
+Do not automatically turn every email into a workspace record.
+
+---
+
+# PHASE 9 — GOOGLE CALENDAR
+
+Then connect the calendar layer.
+
+Prioritise:
+
+* Campaign dates
+* Content dates
+* Shoot dates
+* Meetings
+* Reviews
+* Approvals
+* Important deadlines
+
+Start with:
+
+**Workspace → Google Calendar**
+
+Then introduce two-way sync and conflict handling.
+
+Calendar should become the **time layer** of the Brand OS.
+
+---
+
+# PHASE 10 — WHATSAPP QUICK SHARE
+
+Do **not** wait for full WhatsApp Business integration to introduce useful sharing.
+
+First build:
+
+**Share → WhatsApp → Open WhatsApp**
+
+for relevant assets, scripts, content, production information and documents.
+
+Examples:
+
+> Send this asset.
+
+> Share this script.
+
+> Send the shoot details.
+
+> Share this campaign update.
+
+The system should prepare the message/context where supported, then hand off to WhatsApp.
+
+This provides immediate value without requiring the full connected messaging infrastructure.
+
+---
+
+# PHASE 11 — CONNECTED WHATSAPP
+
+After Quick Share works, build the deeper:
+
+**Connected WhatsApp**
+
+capability.
+
+This requires an actual WhatsApp Business Platform/API integration and appropriate permissions/business setup.
+
+Prioritise:
+
+1. Recipient resolution
+2. Message drafting
+3. Asset/link attachment
+4. User confirmation
+5. Send
+6. Delivery status where available
+7. Communication history
+
+The AI should never send externally without the required confirmation.
+
+---
+
+# PHASE 12 — CROSS-SOURCE INTELLIGENCE
+
+This is where the product becomes genuinely differentiated.
+
+Once Workspace + Drive + Gmail + Calendar are connected, allow AI to answer questions across all of them.
+
+For example:
+
+> “What changed since our last meeting?”
+
+AI can combine:
+
+**Meeting + Gmail + Drive + Calendar + Workspace**
+
+Another example:
+
+> “What was the last thing the designer uploaded?”
+
+AI can search:
+
+**Drive + Workspace + activity history**
+
+Another:
+
+> “What did the client approve and where?”
+
+AI can search:
+
+**Meeting + Gmail + Decisions + Files**
+
+This is the point where the Brand OS starts feeling like a **living account memory**.
+
+---
+
+# PHASE 13 — AI ACTIONS
+
+Only after search and retrieval are reliable should AI begin executing more actions.
+
+Examples:
+
+> “Move the shoot to Friday.”
+
+> “Create a task from this.”
+
+> “Link this asset to the campaign.”
+
+> “Create a content item from this idea.”
+
+> “Create a brief from this meeting.”
+
+> “Send this to the client.”
+
+Use:
+
+**UNDERSTAND → PROPOSE → CONFIRM → EXECUTE**
+
+for meaningful actions.
+
+---
+
+# PHASE 14 — ADVANCED ACCOUNT INTELLIGENCE
+
+Then introduce:
+
+* What changed?
+* What am I waiting for?
+* What is the client waiting for?
+* Prep me for today's meeting
+* Tell me what I missed
+* Weekly account briefing
+* Account hygiene
+* Duplicate detection
+* Contradiction detection
+* Missing-link detection
+* Stale information detection
+* What's at risk?
+* Why are we doing this?
+* Decision memory
+* Automatic agenda generation
+
+These should build on the existing data graph rather than being separate AI features.
+
+---
+
+# PHASE 15 — AUTOMATION / WATCHER LAYER
+
+The final layer is proactive intelligence.
+
+The system can watch for meaningful events such as:
+
+* New Drive file
+* New Canva deck
+* Spreadsheet change
+* New email
+* Client approval
+* Campaign milestone
+* Production change
+* Content approval
+* Calendar change
+* New meeting
+* Scope change
+
+Then surface only what matters.
+
+For example:
+
+> **Something changed**
+
+> The client uploaded a new presentation.
+
+or:
+
+> **You may want to look at this**
+
+> The shoot date in the latest client document differs from the current production date.
+
+Do not create notification noise.
+
+---
+
+# MVP DEFINITION
+
+The **true MVP** should therefore contain:
+
+### CORE
+
+* Persistent workspace
+* Pulse
+* Core Brand OS sections
+* CRUD everywhere
+* Relationships
+* Files
+* Permissions
+* Activity history
+
+### INTELLIGENCE
+
+* Document upload
+* AI extraction
+* Meeting intelligence
+* AI-confirmed updates
+* AI account memory
+* AI Ask/Search
+* Source citations / provenance
+* Basic cross-record reasoning
+
+### FIRST INTEGRATIONS
+
+* Google Drive
+* Gmail
+* Google Calendar
+
+### COMMUNICATION
+
+* WhatsApp Quick Share
+* AI-generated communication drafts
+
+The deeper WhatsApp Business API, automated watchers, proactive intelligence and advanced cross-source execution can follow once the foundation is stable.
+
+---
+
+# THE MVP TEST
+
+Before adding more features, the product should pass this test:
+
+A new user opens **Pulse**.
+
+They can see:
+
+**What is happening.
+What changed.
+What needs attention.
+What is next.**
+
+Then they ask:
+
+> **“What did we discuss with TWH in our last meeting?”**
+
+The system answers with the relevant information and source.
+
+They ask:
+
+> **“What did the designer upload after that?”**
+
+The system finds the relevant file.
+
+They ask:
+
+> **“What content are we making from it?”**
+
+The system follows the relationship into Campaign → Content.
+
+They ask:
+
+> **“Why are we making this?”**
+
+The system traces back into Strategy / Research.
+
+They say:
+
+> **“Send this to the client on WhatsApp.”**
+
+The system finds the relevant asset, prepares the communication and hands it off to WhatsApp or sends through the connected WhatsApp Business integration if configured.
+
+If the MVP can do this reliably, the underlying product concept is working.
+
+**Do not add complexity before this core loop works.**
+
+The priority is:
+
+**KNOW THE ACCOUNT → FIND ANYTHING → UNDERSTAND WHY → CONNECT EVERYTHING → TAKE ACTION**
+
+—not building every possible AI feature on day one.

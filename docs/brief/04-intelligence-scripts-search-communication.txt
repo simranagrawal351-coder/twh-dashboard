@@ -1,0 +1,1532 @@
+# MASTER PROMPT — AI INTELLIGENCE LAYER + SCRIPTS + SEARCH + COMMUNICATION
+
+**IMPORTANT: THIS IS AN ADDITIVE EXTENSION TO THE EXISTING MASTER PROMPT.**
+
+Do not remove, rewrite, simplify, replace, or weaken anything already defined in the existing master prompt.
+
+Everything already specified remains valid.
+
+This section adds a deeper **AI Intelligence Layer, Universal Intelligence Search, Source Finding, Account Memory, Scripts, Communication, WhatsApp capabilities, and contextual AI actions** across the workspace.
+
+---
+
+# 1. THE AI INTELLIGENCE LAYER
+
+The workspace should not feel like a normal dashboard with a chatbot bolted onto it.
+
+AI should function as an **intelligence layer across the entire Brand OS**.
+
+The system should continuously understand the information already present across:
+
+* Workspace records
+* Brand Guidelines
+* Research
+* Strategy
+* Campaigns
+* Content Calendar
+* Creative & Production
+* Scripts
+* Assets
+* Scope
+* Decisions
+* Files
+* Meetings
+* Tasks / Actions
+* Team
+* Google Drive
+* Google Sheets
+* Excel
+* Gmail
+* Google Calendar
+* Connected Canva sources
+* Future external systems
+* WhatsApp / communication systems where connected
+
+The fundamental model is:
+
+**DOCUMENT → UNDERSTAND → EXTRACT → CLASSIFY → CONNECT → PROPOSE → CONFIRM → UPDATE**
+
+The AI should understand what something means before deciding where it belongs.
+
+The workspace database remains the source of truth.
+
+The user remains the final authority.
+
+AI can identify, suggest, connect, summarise, search, draft and propose changes, but meaningful changes to the workspace should normally require confirmation unless the user has explicitly enabled an automation.
+
+Never fabricate an action, approval, integration, message, upload, sync or external update that did not actually happen.
+
+---
+
+# 2. UNIVERSAL AI UPLOAD
+
+There should be a universal **Upload / Add to Intelligence** capability available from Pulse and relevant sections of the workspace.
+
+Users should be able to upload:
+
+* Meeting minutes
+* Meeting transcripts
+* PDFs
+* Word documents
+* Presentations
+* Briefs
+* Research documents
+* Strategy documents
+* Content documents
+* Scripts
+* Shoot briefs
+* Client feedback
+* Reference documents
+* Spreadsheets
+* Other relevant account files
+
+The AI should understand the document and identify what information is relevant.
+
+The upload should be **page-aware**.
+
+For example:
+
+Uploading a document from:
+
+**Strategy**
+
+should cause the AI to primarily look for strategic information.
+
+Uploading from:
+
+**Creative & Production**
+
+should cause it to look for production information.
+
+Uploading from:
+
+**Content Calendar**
+
+should cause it to look for content-related information.
+
+Uploading from:
+
+**Pulse**
+
+should treat it as potentially account-wide information.
+
+Also provide an optional instruction field:
+
+**“Tell AI what to look for”**
+
+For example:
+
+> “Find anything related to the September campaign.”
+
+or
+
+> “Pull out all client approvals.”
+
+or
+
+> “Find the new deliverables mentioned here.”
+
+---
+
+# 3. MEETING INTELLIGENCE
+
+When a meeting transcript, recording transcript, minutes document or notes are uploaded, AI should distinguish between:
+
+* Discussion
+* Ideas
+* Questions
+* Decisions
+* Approvals
+* Rejected ideas
+* Unresolved items
+* Actions
+* Changes
+* Deadlines
+* Dependencies
+* Client responsibilities
+* Agency responsibilities
+
+Do not treat every sentence as a decision.
+
+Do not treat discussion as approval.
+
+Do not infer approval where approval was not explicitly given or sufficiently evidenced.
+
+After processing, show:
+
+**Found X things**
+
+with grouped sections:
+
+### Decisions
+
+### Approvals
+
+### Actions
+
+### Updates
+
+### Unresolved
+
+Each extracted item should be individually:
+
+* Approved
+* Rejected
+* Edited
+* Assigned
+* Linked
+* Added to workspace
+
+Also allow:
+
+**Approve all**
+
+where appropriate.
+
+---
+
+# 4. AUTOMATIC MEETING RECORD
+
+Once confirmed, the system should be able to create a structured meeting record containing:
+
+* Meeting title
+* Date
+* Participants
+* Client
+* Summary
+* Decisions
+* Approvals
+* Actions
+* Owners
+* Deadlines
+* Unresolved items
+* Linked campaigns
+* Linked content
+* Linked strategy
+* Linked production
+* Linked assets
+* Source document
+* AI processing status
+* Confirmation history
+* Changes made
+
+The system should maintain provenance so a user can always understand:
+
+**Where did this information come from?**
+
+---
+
+# 5. GOOGLE DOCS / EXTERNAL OUTPUT
+
+Where an actual integration is available, AI should be able to create structured outputs such as:
+
+* Meeting minutes
+* Briefs
+* Summaries
+* Action lists
+* Agendas
+* Client updates
+
+in connected Google Docs or other supported destinations.
+
+Never fake the integration.
+
+If the integration is unavailable, clearly show that the output can be copied/exported rather than pretending it was created externally.
+
+---
+
+# 6. INTELLIGENT ROUTING
+
+AI should understand where extracted information belongs.
+
+It should be able to route information into:
+
+* Pulse
+* Brand Guidelines
+* Research
+* Strategy
+* Campaigns
+* Content Calendar
+* Creative & Production
+* Scripts
+* Assets
+* Team
+* Scope
+* Decisions
+* Files
+* Tasks / Actions
+* Meetings
+
+For example:
+
+A meeting says:
+
+> “Let's move the furniture shoot to the 25th.”
+
+AI should recognise that this may affect:
+
+* Production
+* Calendar
+* Campaign
+* Content
+* Account Lead calendar
+* Pulse
+* Dependencies
+
+It should show the proposed changes before applying them.
+
+---
+
+# 7. AI PROVENANCE / TRACEABILITY
+
+Every meaningful AI-generated or AI-updated piece of information should have traceability.
+
+Users should be able to understand:
+
+**Source → AI interpretation → Workspace record**
+
+For example:
+
+> Source: TWH Client Meeting — 18 Sep
+> Extracted: Furniture Shoot moved to 25 Sep
+> Applied to: Production / Campaign / Calendar
+> Confirmed by: Account Lead
+
+AI should never become an invisible black box.
+
+The system should retain:
+
+* Source
+* Timestamp
+* Original information
+* AI interpretation
+* User confirmation
+* Resulting change
+
+---
+
+# 8. ACCOUNT MEMORY
+
+The AI should maintain contextual memory of the account through the workspace's structured data and connected sources.
+
+It should understand:
+
+* What the brand is
+* What has happened
+* What is currently happening
+* What was decided
+* What is pending
+* What is coming next
+* Who owns what
+* What has been approved
+* What has been rejected
+* What changed
+* Where information came from
+
+This should not be a generic chatbot memory.
+
+It should be **account memory grounded in actual workspace data and connected sources.**
+
+---
+
+# 9. THE BIG AI SEARCH / ASK BUTTON
+
+This is a **major core feature**, especially inside Pulse.
+
+Do not make this feel like a normal search bar.
+
+Create a visually distinctive but extremely minimal **AI Ask / Intelligence Search** entry point in Pulse.
+
+Possible interaction:
+
+**Ask anything about this account…**
+
+or
+
+**Ask the Brand OS**
+
+or
+
+**What do you want to know?**
+
+The interaction should feel more like asking an extremely knowledgeable account partner than searching a database.
+
+The UI itself should remain minimal.
+
+The intelligence underneath should be extremely deep.
+
+---
+
+# 10. WHAT THE AI SEARCH SHOULD ACTUALLY DO
+
+The user should be able to ask natural-language questions about the account.
+
+Examples:
+
+> “What was the last thing the designer uploaded?”
+
+> “What did we discuss about the new campaign on 12 September?”
+
+> “What content piece were we talking about around the 10th?”
+
+> “What did TWH approve in the last meeting?”
+
+> “What are we waiting for from TWH?”
+
+> “What is TWH waiting for from us?”
+
+> “Show me everything related to the September furniture campaign.”
+
+> “When was the last shoot?”
+
+> “Who uploaded the latest product images?”
+
+> “What did the client say about the new visual direction?”
+
+> “Find the strategy document where this positioning came from.”
+
+> “What was the original thinking behind this campaign?”
+
+> “Which content pieces are connected to this campaign?”
+
+> “What changed since our last meeting?”
+
+> “Find the latest version of the brief.”
+
+> “What was the last feedback on this script?”
+
+> “What are the outstanding approvals?”
+
+> “Which files did the designer upload this week?”
+
+> “What did we promise the client?”
+
+> “Where did this number come from?”
+
+The AI should answer from the connected account ecosystem rather than only searching visible dashboard records.
+
+---
+
+# 11. SEARCH ACROSS THE ENTIRE ACCOUNT GRAPH
+
+The AI Search should be able to search across:
+
+**Workspace + Files + Gmail + Drive + Calendar + Canva + Sheets + Meetings + Decisions + Content + Production + Assets + Strategy + Campaigns + Scripts + Scope**
+
+where the relevant integrations and permissions exist.
+
+This should allow questions that require joining information across multiple sources.
+
+For example:
+
+> “What did we decide about the furniture campaign in the last meeting, and where is the latest visual reference?”
+
+The AI should potentially:
+
+1. Find the relevant meeting.
+2. Identify the decision.
+3. Find the relevant campaign.
+4. Find the latest visual reference.
+5. Verify its source/date.
+6. Return the answer.
+7. Show the relevant source records.
+
+---
+
+# 12. SOURCE-FIRST ANSWERS
+
+One of the most important principles of AI Search:
+
+**Do not only give the answer. Show where the answer came from.**
+
+Every answer should, where possible, provide:
+
+* Answer
+* Source
+* Date
+* Person
+* Relevant file/email/message
+* Link to source
+* Related workspace record
+
+For example:
+
+> **The latest product images were uploaded by the designer on 17 September.**
+
+Then:
+
+**Source**
+Designer Upload — Google Drive
+17 Sep 2026
+
+**Related**
+Furniture Campaign → Creative & Production → Assets
+
+This makes the AI trustworthy.
+
+---
+
+# 13. PRECISION SEARCH
+
+The AI should understand:
+
+### WHO
+
+> “What did Sarah upload?”
+
+### WHAT
+
+> “What did we write about the dining table?”
+
+### WHEN
+
+> “What happened around 15 September?”
+
+### WHERE
+
+> “Where is the original research?”
+
+### WHY
+
+> “Why did we choose this campaign idea?”
+
+### WHO + WHAT + WHEN
+
+> “What did the designer upload on Tuesday?”
+
+### WHAT + SOURCE
+
+> “Where did this insight come from?”
+
+### WHAT + PERSON + ACCOUNT
+
+> “What did the client approve last week?”
+
+The system should interpret conversational language, aliases, shorthand, approximate dates and contextual references where possible.
+
+If there are multiple possible matches, ask a concise clarification rather than guessing.
+
+---
+
+# 14. SEARCH RESULT DESIGN
+
+Search results should not look like Google search results.
+
+They should feel like **intelligence returning context**.
+
+A response can contain:
+
+### ANSWER
+
+A concise human answer.
+
+### WHY / CONTEXT
+
+A short explanation if needed.
+
+### SOURCES
+
+The actual files, emails, meetings, records or external sources that support the answer.
+
+### RELATED
+
+Connected campaigns, content, people, assets, decisions or production records.
+
+### ACTION
+
+Where useful:
+
+* Open
+* View source
+* Add to workspace
+* Link
+* Share
+* Create task
+* Create brief
+* Send
+* Add to calendar
+
+The UI should stay calm and minimal.
+
+---
+
+# 15. “FIND THE SOURCE” INTELLIGENCE
+
+Source finding should be especially powerful inside:
+
+**Research**
+
+and
+
+**Strategy**.
+
+If a strategy statement exists, the user should be able to ask:
+
+> “Where did this come from?”
+
+The AI should search connected:
+
+* Research
+* Competitor documents
+* Audience research
+* Market reports
+* Client documents
+* Meeting notes
+* Uploaded presentations
+* Drive files
+* Canva decks
+* Emails
+* Previous strategy documents
+* External sources where web research is explicitly enabled
+
+It should return the most relevant source and explain the connection.
+
+For example:
+
+**Strategic statement**
+
+→ **Supporting research**
+
+→ **Original source**
+
+→ **Date**
+
+→ **Interpretation**
+
+→ **Strategic implication**
+
+This should make Research and Strategy feel evidence-based rather than like static documents.
+
+---
+
+# 16. “WHY ARE WE DOING THIS?”
+
+The AI should understand the relationship between:
+
+**Research → Insight → Strategy → Campaign → Content → Script → Production → Asset → Publish**
+
+A user should be able to select a content piece and ask:
+
+> “Why are we doing this?”
+
+The system should trace backwards through the account graph.
+
+Example:
+
+**Instagram Post**
+
+↓
+**Campaign**
+
+↓
+**Strategic Objective**
+
+↓
+**Research Insight**
+
+↓
+**Original Source**
+
+↓
+**Decision / Approval**
+
+This creates strategic traceability throughout the Brand OS.
+
+---
+
+# 17. “WHAT CHANGED?” INTELLIGENCE
+
+The AI should be able to compare account state across time.
+
+Examples:
+
+> “What changed since our last meeting?”
+
+> “What changed this week?”
+
+> “What changed in the campaign?”
+
+> “What changed in the scope?”
+
+> “What changed in the content plan?”
+
+The system should compare relevant:
+
+* Meetings
+* Emails
+* Files
+* Calendar
+* Content
+* Production
+* Campaigns
+* Decisions
+* Scope
+* Approvals
+
+and return meaningful changes.
+
+Not every tiny database modification needs to be surfaced.
+
+Focus on changes that affect the account.
+
+---
+
+# 18. “WHAT AM I WAITING FOR?”
+
+The AI should be able to identify outstanding dependencies.
+
+Examples:
+
+> “What am I waiting for?”
+
+> “What are we waiting for from TWH?”
+
+> “What is TWH waiting for from us?”
+
+> “What approvals are pending?”
+
+> “What is blocking the shoot?”
+
+The answer should be based on actual:
+
+* Tasks
+* Owners
+* Deadlines
+* Dependencies
+* Emails
+* Meeting actions
+* Approvals
+* Production status
+* Content status
+* Scope
+* Calendar
+
+Do not invent predictive scores.
+
+Show actual blockers and dependencies.
+
+---
+
+# 19. PRE-MEETING INTELLIGENCE
+
+The user should be able to ask:
+
+> **“Prep me for today's TWH meeting.”**
+
+AI should create a concise contextual briefing containing, where available:
+
+* Previous meeting
+* Previous decisions
+* Outstanding actions
+* Unresolved questions
+* Recent emails
+* Latest content
+* Campaign status
+* Upcoming shoots
+* Pending approvals
+* Recent client feedback
+* Relevant files
+* Relevant strategy
+* Recent changes
+* Important deadlines
+
+The result should feel like having an account partner brief the lead five minutes before the meeting.
+
+---
+
+# 20. POST-MEETING INTELLIGENCE
+
+After a meeting, AI should help clean up the account.
+
+It should identify:
+
+* New decisions
+* Changed dates
+* New actions
+* New deliverables
+* New content ideas
+* New scripts
+* New production requirements
+* New approvals
+* Rejected directions
+* New dependencies
+* Information that needs updating elsewhere
+
+Then show the proposed changes for confirmation.
+
+---
+
+# 21. WEEKLY ACCOUNT BRIEFING
+
+The system should be able to generate:
+
+**“What happened this week?”**
+
+with:
+
+* What moved
+* What was completed
+* What was approved
+* What changed
+* What is pending
+* What is blocked
+* What is coming next
+* Important client activity
+* Important internal activity
+* New files
+* New content
+* New production activity
+* Decisions made
+
+This can feed directly into Pulse.
+
+---
+
+# 22. “TELL ME WHAT I MISSED”
+
+The AI should support catch-up.
+
+For example:
+
+> “I was away for three days. Tell me what I missed.”
+
+It should use the user's permissions and relevant account activity to surface meaningful changes during that period.
+
+Avoid dumping everything.
+
+Prioritise:
+
+**Decisions → Changes → Actions → Approvals → Blockers → Upcoming**
+
+---
+
+# 23. EMAIL INTELLIGENCE
+
+When Gmail is connected and permissions allow, AI should be able to identify account-relevant email activity.
+
+It should understand:
+
+* Client requests
+* Approvals
+* Feedback
+* Attachments
+* New deliverables
+* Changes
+* Decisions
+* Deadlines
+* Questions
+* Dependencies
+
+The AI should not blindly import every email.
+
+It should classify relevance.
+
+Relevant information can then be surfaced in Pulse or proposed for addition to the workspace.
+
+---
+
+# 24. SEARCH MUST RESPECT PERMISSIONS
+
+AI Search must only retrieve information the current user is authorised to access.
+
+If an internal record is unavailable to the client, it must not appear in client-facing answers.
+
+Internal agency information remains protected.
+
+This is particularly important for:
+
+* Internal notes
+* Internal management
+* Commercial information
+* Internal feedback
+* Team discussions
+* Internal strategy
+* Private documents
+* Sensitive scope information
+
+---
+
+# 25. ACCOUNT GRAPH
+
+The system should maintain an underlying account graph.
+
+At minimum:
+
+**Client
+→ Strategy
+→ Campaign
+→ Content
+→ Script
+→ Production
+→ Asset
+→ Publish**
+
+and across that:
+
+**Meetings
+Emails
+Files
+Decisions
+People
+Calendar
+Scope
+Tasks**
+
+The AI should use this graph to understand relationships rather than treating every record as isolated.
+
+This is what allows questions like:
+
+> “Which content came from this campaign?”
+
+or:
+
+> “What decision created this deliverable?”
+
+or:
+
+> “Which shoot is this asset from?”
+
+or:
+
+> “What strategy does this content support?”
+
+---
+
+# 26. AI INTELLIGENCE HIERARCHY
+
+The overall AI system should operate across this hierarchy:
+
+**UNDERSTAND
+→ REMEMBER
+→ CONNECT
+→ SURFACE
+→ PROPOSE
+→ EXECUTE
+→ WATCH**
+
+Most intelligence should remain invisible until useful.
+
+Do not clutter the interface with AI badges, AI cards, scores, recommendations and chat windows everywhere.
+
+The intelligence should be **deep underneath and minimal on the surface.**
+
+---
+
+# 27. SCRIPTS — NEW CORE WORKSPACE
+
+Add **Scripts** as a first-class workspace section.
+
+Scripts can include:
+
+* Reels
+* Video scripts
+* Founder videos
+* Brand films
+* Ads
+* Short-form videos
+* UGC
+* Campaign films
+* Interviews
+* Product films
+* Social videos
+
+Each script should support:
+
+* Title
+* Campaign
+* Content item
+* Platform
+* Format
+* Objective
+* Audience
+* Creative territory
+* Concept
+* Hook
+* Script body
+* Dialogue
+* Voiceover
+* On-screen text
+* Visual direction
+* Shot direction
+* CTA
+* Duration
+* Owner
+* Writer
+* Status
+* Version
+* Feedback
+* Approval
+* Shoot date
+* Publish date
+* Assets
+* Production
+* Brief
+
+---
+
+# 28. SCRIPT STATUS
+
+Use a clear, minimal workflow:
+
+**Idea → Briefed → Writing → Internal Review → Client Review → Revision → Approved → Production → Final**
+
+Do not create dozens of unnecessary statuses.
+
+Scripts should support:
+
+* Version history
+* Feedback
+* Revision rounds
+* Approval
+* Asset linking
+* Content linking
+* Production linking
+* Campaign linking
+* Meeting linking
+* Activity history
+
+---
+
+# 29. AI + SCRIPTS
+
+AI should be able to understand and work with scripts.
+
+Examples:
+
+> “Turn this approved concept into a reel script.”
+
+> “Find the latest version of this script.”
+
+> “What feedback did the client give on this?”
+
+> “Which campaign is this script connected to?”
+
+> “Show me all scripts waiting for client approval.”
+
+> “Turn this meeting discussion into a script brief.”
+
+> “Find the visual references for this script.”
+
+Again, meaningful updates should be proposed and confirmed where appropriate.
+
+---
+
+# 30. COMMUNICATION LAYER
+
+Add a broader **Communication / Share** layer throughout the workspace.
+
+Users should be able to communicate from the context where work already exists.
+
+Examples:
+
+### Asset
+
+**Share**
+
+### Script
+
+**Send for Approval**
+
+### Campaign
+
+**Share Campaign Update**
+
+### Content
+
+**Send Preview**
+
+### Production
+
+**Send Shoot Details**
+
+### Meeting
+
+**Send MOM**
+
+### Scope
+
+**Share Scope**
+
+Communication should understand context.
+
+Do not make the user manually download a file, open another application, find the person, write the message and attach the correct thing every time.
+
+The Brand OS should help prepare the communication.
+
+---
+
+# 31. AI-COMPOSED COMMUNICATION
+
+AI should be able to turn workspace context into a communication draft.
+
+Example:
+
+User:
+
+> “Send the client the latest furniture campaign update.”
+
+AI should understand:
+
+* Which client
+* Which campaign
+* Latest campaign status
+* Relevant changes
+* Relevant assets
+* Relevant approvals
+* Relevant links
+
+Then prepare a concise message.
+
+The user reviews it.
+
+Then:
+
+**Send**
+
+or:
+
+**Edit**
+
+or:
+
+**Cancel**
+
+Never send important external communication without the required confirmation.
+
+---
+
+# 32. WHATSAPP — QUICK SHARE
+
+Add a **Quick Share / Open WhatsApp** capability.
+
+This is the lightweight version.
+
+For example:
+
+User is viewing an asset and clicks:
+
+**Share → WhatsApp**
+
+The workspace should prepare the relevant context and open WhatsApp with the recipient/message context where supported by the platform.
+
+Examples:
+
+> “Send this asset to the client.”
+
+> “Open WhatsApp and send this for approval.”
+
+> “Share the shoot details on WhatsApp.”
+
+This can use a WhatsApp deep-link / handoff approach where supported.
+
+The user still completes the send in WhatsApp.
+
+---
+
+# 33. WHATSAPP — CONNECTED SENDING
+
+Also architect the system for a deeper version:
+
+**Connected WhatsApp**
+
+This should support actual sending from the Brand OS where a legitimate WhatsApp Business Platform/API integration is connected and authorised.
+
+The architecture should be:
+
+**User request
+→ AI understands intent
+→ Finds recipient
+→ Finds relevant workspace context
+→ Finds asset / document / link
+→ Drafts message
+→ User confirms
+→ WhatsApp integration sends
+→ Delivery / message status is recorded where supported**
+
+Do not imply that ChatGPT itself automatically gives the website WhatsApp sending capability.
+
+A real WhatsApp Business Platform/API integration, appropriate business account setup, permissions and applicable platform messaging rules are required.
+
+Never fake a connected WhatsApp integration.
+
+---
+
+# 34. WHATSAPP EXAMPLES
+
+The system should support natural commands such as:
+
+> “Send this to the client on WhatsApp.”
+
+> “Send the latest asset to Sarah.”
+
+> “Message the client that the shoot has moved to Friday.”
+
+> “Send the shoot details to the photographer.”
+
+> “Send this script to the client for approval.”
+
+> “Send the meeting minutes to the client.”
+
+> “Share the latest campaign presentation.”
+
+AI should resolve the relevant:
+
+**WHO + WHAT + WHY + WHICH VERSION + WHICH CHANNEL**
+
+before asking for confirmation.
+
+If recipient ambiguity exists:
+
+> “I found two Sarahs. Which one?”
+
+Do not guess.
+
+---
+
+# 35. COMMUNICATION HISTORY
+
+Where integrations permit, communication actions should become part of account context.
+
+For example:
+
+**Campaign → Communication → WhatsApp → Client approval**
+
+or:
+
+**Production → Shoot details → WhatsApp → Photographer**
+
+This means communication does not disappear outside the workspace.
+
+The workspace should know that an important piece of information was communicated, subject to permissions and integration capabilities.
+
+---
+
+# 36. AI FIND + COMMUNICATE
+
+Combine Search and Communication.
+
+A user should be able to say:
+
+> “Find the latest version of the furniture shoot deck and send it to the client on WhatsApp.”
+
+The AI should:
+
+1. Find the latest relevant deck.
+2. Verify its version/date.
+3. Identify the intended recipient.
+4. Prepare the message.
+5. Show the user what will be sent.
+6. Ask for confirmation.
+7. Send through the connected channel if available.
+8. Record the communication event if supported.
+
+This is the kind of intelligence that should make the Brand OS feel genuinely useful.
+
+---
+
+# 37. SOURCE FINDING + COMMUNICATION
+
+Similarly:
+
+> “Find the research behind this claim and send it to the client.”
+
+AI should:
+
+1. Identify the claim.
+2. Find the underlying source.
+3. Verify relevance.
+4. Prepare a concise explanation.
+5. Attach/link the source.
+6. Prepare the message.
+7. Ask for confirmation.
+8. Send through the chosen channel.
+
+---
+
+# 38. NATURAL-LANGUAGE WORKSPACE CONTROL
+
+The AI should eventually support natural commands such as:
+
+> “Move the shoot to Friday.”
+
+> “Create a content item from this idea.”
+
+> “Link this asset to the campaign.”
+
+> “Find everything related to this.”
+
+> “Add this as a decision.”
+
+> “Send this to the client.”
+
+> “Show me what changed.”
+
+> “What am I waiting for?”
+
+> “Prep me for the meeting.”
+
+> “Find the source.”
+
+> “Show me the latest version.”
+
+The system should interpret the request, explain the intended action where meaningful, and execute only within the user's permissions and confirmation rules.
+
+---
+
+# 39. ACCOUNT HYGIENE INTELLIGENCE
+
+AI should also periodically identify:
+
+* Duplicate records
+* Duplicate files
+* Orphaned content
+* Missing campaign links
+* Missing asset links
+* Outdated versions
+* Conflicting dates
+* Conflicting quantities
+* Missing owners
+* Unresolved approvals
+* Broken relationships
+* Incomplete briefs
+* Stale information
+
+Do not silently modify these.
+
+Surface them as:
+
+**“A few things need attention.”**
+
+Then allow the user to resolve them.
+
+---
+
+# 40. CONTRADICTION DETECTION
+
+AI should identify conflicting information across connected sources.
+
+Examples:
+
+* Different campaign dates
+* Different quantities
+* Different deliverables
+* Different audience descriptions
+* Different positioning statements
+* Different product information
+* Different pricing
+* Different scope
+* Different approved versions
+
+Example:
+
+> “I found two different launch dates: 25 September in the latest campaign brief and 28 September in the client email.”
+
+Then show both sources.
+
+Do not automatically decide which one is correct.
+
+---
+
+# 41. WHAT'S AT RISK?
+
+The AI should be able to answer:
+
+> “What is at risk?”
+
+based on actual evidence such as:
+
+* Missing dependencies
+* Overdue approvals
+* Conflicting dates
+* Unassigned owners
+* Production blockers
+* Missing assets
+* Pending client feedback
+* Calendar conflicts
+* Scope gaps
+
+Do not create meaningless “risk scores” just for the sake of analytics.
+
+Explain the actual reason.
+
+---
+
+# 42. PULSE AS THE INTELLIGENCE HOME
+
+Pulse should become the place where the user can quickly understand:
+
+**What is happening.
+What changed.
+What needs attention.
+What is next.
+What the AI found.
+What I need to know.
+What I can ask.**
+
+The AI Search / Ask interface should be prominently but elegantly available here.
+
+The Pulse should not become a chatbot screen.
+
+The search is an **intelligence doorway into the entire Brand OS.**
+
+The rest of Pulse remains editorial, visual, human and account-focused.
+
+---
+
+# 43. AI SHOULD FEEL HUMAN, NOT “AI-Y”
+
+Avoid:
+
+* Generic chatbot UI
+* Giant chat windows
+* Robot illustrations
+* “AI Magic” labels
+* Excessive AI badges
+* Fake intelligence scores
+* Generic AI gradients
+* Futuristic neon
+* Corporate assistant language
+
+Instead, the AI should feel like:
+
+**a very sharp account partner who knows the account extremely well.**
+
+The interface should be calm.
+
+The intelligence should be deep.
+
+---
+
+# 44. TECHNICAL ARCHITECTURE
+
+The application must be architected to support:
+
+* Real file ingestion
+* Document parsing
+* Transcript processing
+* AI processing
+* Structured extraction
+* Entity matching
+* Duplicate detection
+* Stable IDs
+* Source IDs
+* Provenance
+* Permissions
+* Audit history
+* AI/API calls
+* External integrations
+* Async processing
+* Errors
+* Retries
+* Confirmation flows
+* Search indexing
+* Semantic retrieval
+* Structured database queries
+* Cross-source retrieval
+* Calendar relationships
+* Communication integrations
+* WhatsApp Business API where connected
+* Gmail integration where connected
+* Drive integration where connected
+* Canva integration where connected
+* Future integrations
+
+The AI Search should combine:
+
+**semantic understanding + structured database querying + source retrieval + relationship traversal**
+
+rather than relying only on keyword search.
+
+---
+
+# 45. NO FAKE INTELLIGENCE
+
+This is critical.
+
+Do not make the interface look like something is connected when it isn't.
+
+Do not show:
+
+* Fake Gmail connection
+* Fake WhatsApp connection
+* Fake Drive sync
+* Fake Canva sync
+* Fake Google Calendar sync
+* Fake AI actions
+* Fake message delivery
+* Fake source citations
+
+If something is not connected:
+
+**say so clearly.**
+
+The product can still be designed to be integration-ready.
+
+---
+
+# 46. FINAL INTENT
+
+The ultimate experience should be:
+
+**I give the Brand OS information.**
+
+↓
+
+**It understands what it means.**
+
+↓
+
+**It knows where it belongs.**
+
+↓
+
+**It remembers it.**
+
+↓
+
+**It connects it to everything else.**
+
+↓
+
+**I can ask the workspace anything about the account.**
+
+↓
+
+**It finds the answer, even if that answer lives across Gmail, Drive, Calendar, Canva, meetings, content, strategy or files.**
+
+↓
+
+**It shows me the source.**
+
+↓
+
+**It can propose what should happen next.**
+
+↓
+
+**I confirm.**
+
+↓
+
+**The workspace updates.**
+
+↓
+
+**And when appropriate, it can communicate that information through email, WhatsApp or another connected channel.**
+
+The goal is not to build a dashboard that happens to have AI.
+
+The goal is to build a **living Brand OS with an intelligence layer underneath it.**
+
+The user should feel:
+
+> **“This thing actually knows the account.”**
+
+And the most important principle:
+
+**Minimal interface.
+Maximum intelligence.
+Everything connected.
+Nothing lost.
+Everything traceable.
+The human remains in control.**

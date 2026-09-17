@@ -1,0 +1,1603 @@
+Absolutely. These need to be treated as **core product principles**, not small feature requests. The biggest additions are:
+
+* The first page must feel like a **living account / brand moment**, not a dashboard called “Overview.”
+* Every piece of content the user can create must also be **editable, deletable, reorderable, sortable, and manageable**.
+* The interface should behave like a proper **agency workspace / operating system**, not a static presentation.
+
+Here is the revised copy-paste prompt with those changes built in:
+
+---
+
+# MASTER PROMPT — PREMIUM MARKETING AGENCY CLIENT WORKSPACE
+
+Redesign and build this product as a **premium marketing agency workspace for a client account**.
+
+This is NOT a generic SaaS dashboard, project-management tool, CRM, or analytics platform.
+
+It should feel like a sophisticated digital environment where an agency and client can understand the brand, see what is happening, develop strategy, plan campaigns, create content, manage production, review work, and understand the commercial scope of the relationship.
+
+The experience should feel:
+
+**Editorial. Strategic. Human. Visual. Premium. Calm. Detailed. Tactile. Intelligent.**
+
+It should feel closer to a beautifully designed creative agency operating system than conventional software.
+
+The design must be:
+
+**Neat, but not empty.
+Detailed, but not cluttered.
+Premium, but not precious.
+Operational, but not corporate.
+Visual, but not decorative.
+Strategic, but not text-heavy.**
+
+Do not make everything into identical cards, KPI tiles, tables, or dashboards.
+
+Every section represents a different kind of agency work and must have its **own information architecture, interaction model, hierarchy, and visual language**.
+
+---
+
+# 1. FIRST PRINCIPLE — THIS IS A LIVING ACCOUNT, NOT A STATIC DASHBOARD
+
+The product should feel like the account is **actively moving**.
+
+When a user opens it, the immediate feeling should be:
+
+> “Okay, this is what’s happening with the brand right now.”
+
+Not:
+
+> “Here are some metrics.”
+
+Not:
+
+> “Here are six generic dashboard widgets.”
+
+Not:
+
+> “Here are some software modules.”
+
+The first page should answer:
+
+**What is happening with the brand today?
+What moved recently?
+What are we working towards?
+What needs attention?
+What is coming next?
+What should I look at first?**
+
+---
+
+# 2. RENAME “OVERVIEW”
+
+Do NOT call the first page “Overview”.
+
+Create a more distinctive, human, editorial name.
+
+Possible directions:
+
+* Pulse
+* Current
+* Now
+* The Week
+* In Motion
+* Brand Pulse
+* Account Pulse
+* Right Now
+* What’s Happening
+* Today
+* The Edit
+
+Choose **one strong final name**, rather than presenting multiple options in the final UI.
+
+It should sound like something an agency would naturally say internally and with a client.
+
+---
+
+# 3. THE FIRST PAGE — MAKE IT THE MOST VISUALLY APPEALING PAGE
+
+The opening page should be dramatically more interesting than the current version.
+
+It should immediately feel like entering the brand’s world.
+
+Avoid a conventional “dashboard top section + cards + charts” structure.
+
+Instead, create a visually composed editorial experience.
+
+The page should begin with a strong, human opening moment.
+
+For example:
+
+> **Good morning. Here’s what’s moving.**
+
+or
+
+> **Let’s get this going.**
+
+or
+
+> **Here’s where the brand is today.**
+
+or
+
+> **A quick look at what’s happening.**
+
+The exact copy should feel:
+
+**casual + cool + human + motivating + confident**
+
+Never robotic.
+
+Never corporate.
+
+Never generic AI copy.
+
+Avoid phrases like:
+
+* “Welcome to your dashboard”
+* “Here is your account overview”
+* “Track your progress”
+* “Monitor your KPIs”
+* “Review your requirements”
+
+Instead, the tone should feel like an agency that knows the brand and is actually working on it.
+
+---
+
+# 4. FIRST PAGE CONTENT
+
+The opening page should contain a curated, highly visual snapshot of the account.
+
+Think of it as:
+
+### What’s happening now
+
+A short, conversational summary of the current state of the brand.
+
+Example:
+
+> **The retail story is picking up. We’re moving the new product story into content this week, while the bespoke side starts taking shape for the next campaign.**
+
+Then surface meaningful current activity.
+
+### What moved
+
+Recently completed or changed things:
+
+* Campaign moved into production
+* Reel approved
+* New brand guideline added
+* New campaign launched
+* New decision made
+* Shoot completed
+* Scope changed
+* Asset added
+* Strategy updated
+
+### What’s next
+
+Upcoming meaningful moments:
+
+* Campaign launch
+* Shoot
+* Approval
+* Content batch
+* Strategy milestone
+* Website milestone
+* Deliverable due
+
+### Needs attention
+
+Only genuinely useful things:
+
+* Something awaiting approval
+* A decision required
+* A missing asset
+* A timeline dependency
+* A scope confirmation
+* Something that has slipped
+
+Do not call these “requirements”.
+
+Use agency language such as:
+
+**Needs a decision
+Waiting on approval
+To unblock
+Next up
+Coming up
+Worth a look**
+
+---
+
+# 5. MAKE THE OPENING PAGE VISUAL
+
+The first page needs **scale, composition, rhythm and visual storytelling**.
+
+Use:
+
+* Strong editorial typography
+* Large statements
+* Campaign imagery
+* Relevant brand imagery
+* Recent creative previews
+* Visual timelines
+* Small pieces of structured information
+* Horizontal movement
+* Carefully layered sections
+* Asymmetrical layouts where appropriate
+* Subtle interaction
+* Expandable moments
+* Hover states
+* Image previews
+* Activity trails
+
+Use whitespace intentionally.
+
+Do not fill the page with boxes.
+
+The visual hierarchy should guide the user naturally:
+
+**Now → Movement → Attention → Next**
+
+The page should feel curated by an agency, not automatically assembled by software.
+
+---
+
+# 6. HUMAN COPY SYSTEM
+
+All copy throughout the application should become more human.
+
+Use a tone that is:
+
+**Smart, relaxed, contemporary, confident, conversational and motivating.**
+
+It can sound slightly informal.
+
+Examples of appropriate microcopy:
+
+> Let’s get this moving.
+
+> Here’s what’s happening.
+
+> A few things moved this week.
+
+> Nearly there.
+
+> This one needs a quick decision.
+
+> Coming up next.
+
+> Good to go.
+
+> One more round.
+
+> Ready to publish.
+
+> Worth a look.
+
+> This is taking shape.
+
+> What changed?
+
+Avoid:
+
+> Action required.
+
+> Input required.
+
+> Task pending.
+
+> User activity.
+
+> Workflow status.
+
+> Deliverable completion rate.
+
+Use human agency language instead.
+
+---
+
+# 7. UNIVERSAL CRUD PRINCIPLE — NOTHING SHOULD BE A DEAD END
+
+This is extremely important.
+
+**Anything a user can add to the workspace must also be manageable afterward.**
+
+Every editable content object must support:
+
+* Create
+* View
+* Edit
+* Delete
+* Duplicate where useful
+* Archive where appropriate
+* Move
+* Reorder
+* Sort
+* Filter
+* Search
+* Tag
+* Link to related work
+* Change status
+* Change date
+* Undo where appropriate
+
+Do NOT build static content-entry interfaces.
+
+If I can create something, I need an obvious and reliable way to remove it.
+
+---
+
+# 8. DELETE MUST EXIST EVERYWHERE
+
+A delete action must exist anywhere users can create or add information.
+
+This applies across the entire product.
+
+For example:
+
+### Brand Guidelines
+
+I should be able to delete:
+
+* A colour
+* A font
+* A logo
+* A tone-of-voice rule
+* A section
+* A visual reference
+* A photography reference
+* A do/don’t example
+* A content block
+* An uploaded file
+* An embedded reference
+
+### Research
+
+I should be able to delete:
+
+* A research entry
+* A competitor
+* A market observation
+* A source
+* A trend
+* A cultural reference
+* An embedded video
+* A link
+* A research block
+
+### Strategy
+
+I should be able to delete or remove:
+
+* Strategic priorities
+* Funnel stages
+* Objectives
+* Roadmap items
+* Strategic routes
+* Monthly milestones
+* Metrics
+* Supporting references
+* Content blocks
+
+### Campaigns
+
+I should be able to delete:
+
+* Campaigns
+* Deliverables
+* Ideas
+* Creative directions
+* References
+* Campaign assets
+* Supporting content
+
+### Content Calendar
+
+I should be able to delete:
+
+* Posts
+* Content ideas
+* Content entries
+* Content blocks
+* Attachments
+* Scheduled items
+
+### Creative & Production
+
+I should be able to delete:
+
+* Briefs
+* Production items
+* Deliverables
+* References
+* Versions
+* Supporting material
+
+### Assets
+
+I should be able to:
+
+* Delete
+* Replace
+* Archive
+* Rename
+* Move
+* Reassign
+* Change collection
+
+### Team & Partners
+
+I should be able to remove people and partners.
+
+### Scope
+
+I should be able to remove, edit, replace or archive services, packages, optional items and one-off services according to permissions.
+
+### Files
+
+I should be able to:
+
+* Delete
+* Rename
+* Move
+* Replace
+* Archive
+* Reorganise
+
+### Decisions
+
+I should be able to delete or archive decisions where appropriate, subject to role permissions.
+
+---
+
+# 9. DELETE UX
+
+Do not make delete dangerous or invisible.
+
+Use a sensible pattern:
+
+**Delete**
+
+→ confirmation
+
+> Remove “Primary Campaign Font”?
+
+> This will remove it from the current brand guidelines.
+
+[Cancel] [Remove]
+
+For destructive actions, use confirmation where appropriate.
+
+Also support:
+
+**Undo**
+
+after deletion wherever technically practical.
+
+For critical records, use **Archive** instead of permanent deletion when the information needs to remain historically traceable.
+
+---
+
+# 10. EVERYTHING SHOULD BE REORDERABLE
+
+The interface must support movement, not just editing.
+
+Users should be able to decide:
+
+> “This needs to go up.”
+
+> “This comes after that.”
+
+> “Move this campaign earlier.”
+
+> “Put this section above the other one.”
+
+> “Change the order of these brand principles.”
+
+> “Move this content to next week.”
+
+> “Put this image first.”
+
+Support intuitive drag-and-drop wherever it makes sense.
+
+Examples:
+
+### Brand Guidelines
+
+Drag sections and blocks into different positions.
+
+### Research
+
+Reorder insights, references and categories.
+
+### Strategy
+
+Reorder priorities and roadmap items.
+
+### Campaigns
+
+Move milestones and phases.
+
+### Content Calendar
+
+Move posts between dates.
+
+### Creative
+
+Reorder references and deliverables.
+
+### Assets
+
+Reorder items inside collections.
+
+### Scope
+
+Reorder services and service groups.
+
+Do not assume that database insertion order is enough.
+
+---
+
+# 11. COLUMNS MUST BE MOVABLE
+
+Wherever a table or board exists, users should be able to change the order of columns.
+
+For example:
+
+**Content Calendar**
+
+A user may want:
+
+Date → Campaign → Platform → Status → Owner
+
+Another user may want:
+
+Status → Date → Campaign → Platform → Owner
+
+Allow column reordering.
+
+Allow column visibility controls where useful.
+
+Allow sensible resizing.
+
+Persist the user's chosen configuration.
+
+---
+
+# 12. ROWS MUST BE MOVABLE
+
+Where rows represent meaningful content, allow users to manually reorder them.
+
+For example:
+
+* Campaign priorities
+* Research entries
+* Strategy priorities
+* Scope services
+* Deliverables
+* Content posts
+* Production items
+
+Drag handle + clear drop state.
+
+Do not make reordering visually noisy.
+
+---
+
+# 13. SORTING MUST GO BEYOND STATUS
+
+This is another important requirement.
+
+Every meaningful list should have robust sorting.
+
+Users should be able to sort by relevant dimensions such as:
+
+**Date
+Created date
+Updated date
+Name
+Status
+Priority
+Campaign
+Platform
+Owner
+Client
+Category
+Type
+Due date
+Publish date
+Approval date
+Production date
+Budget
+Scope type**
+
+Different sections should expose only the sorting options that actually make sense there.
+
+Do not provide the same generic sorting menu everywhere.
+
+---
+
+# 14. FILTERS SHOULD BE DEEP AND CONTEXTUAL
+
+Filters should allow users to narrow large datasets quickly.
+
+For example:
+
+### Content
+
+Filter by:
+
+Platform
+Campaign
+Format
+Status
+Month
+Owner
+Content territory
+Approval
+Publish date
+
+### Assets
+
+Filter by:
+
+Type
+Campaign
+Format
+Collection
+Usage
+Date
+Owner
+Version
+
+### Research
+
+Filter by:
+
+Audience
+Market
+Competitor
+Trend
+Category
+Source
+Date
+Research type
+
+### Campaigns
+
+Filter by:
+
+Stage
+Campaign type
+Channel
+Month
+Owner
+Status
+
+Filters should feel like useful working tools, not decorative UI.
+
+Allow multiple filters together.
+
+Example:
+
+> Instagram + Reels + September + Campaign X + Client Review
+
+---
+
+# 15. SEARCH SHOULD ACTUALLY SEARCH THE ACCOUNT
+
+Global search should be useful.
+
+It should find:
+
+* Campaigns
+* Content
+* Assets
+* Research
+* Strategy
+* Brand guideline entries
+* Files
+* Decisions
+* People
+* Scope items
+
+Search results should show context.
+
+For example:
+
+> **Summer Retail Campaign**
+> Campaign · Strategy
+
+rather than simply:
+
+> Summer Retail Campaign
+
+---
+
+# 16. BRAND GUIDELINES
+
+Do NOT call this “Brand & Business”.
+
+Use:
+
+**Brand Guidelines**
+
+This page should function like a **living brand guideline + account onboarding document**.
+
+It should help a new:
+
+* Designer
+* Copywriter
+* Strategist
+* Creative
+* Account manager
+
+understand the brand quickly.
+
+Include rich content blocks for:
+
+* Brand story
+* History
+* Founder words
+* Mission
+* Vision
+* Positioning
+* Audience
+* Brand principles
+* Brand voice
+* Tone
+* Copy guidance
+* Vocabulary
+* Do / Don't examples
+* Logo system
+* Colour system
+* Typography
+* Photography
+* Art direction
+* Visual identity
+* Campaign references
+* Cultural references
+* Video
+* PDFs
+* Embedded links
+* Galleries
+
+This should NOT look like a form.
+
+It should feel like an elegant digital brand book that is editable.
+
+Every block must be editable, deletable and reorderable.
+
+---
+
+# 17. RESEARCH
+
+Research must have a completely different information architecture from Brand Guidelines.
+
+Primary areas:
+
+### Target Audience
+
+Who they are, behaviours, needs, motivations, barriers, cultural signals, media habits, purchasing behaviour.
+
+### Market Research
+
+Market landscape, categories, growth, behaviour, whitespace, market observations.
+
+### Competitors
+
+Competitor profiles, positioning, communication, campaigns, visual language, strengths, weaknesses, patterns.
+
+Also allow:
+
+* Trends
+* Cultural references
+* Cross-category references
+* Inspiration
+* Emerging behaviours
+* Sources
+
+Every research item should include:
+
+**Observation
+Interpretation / Insight
+Strategic Implication
+Source / Reference**
+
+Support:
+
+* URLs
+* Images
+* PDFs
+* Videos
+* Embedded media
+
+Where technically possible, allow videos to be watched **inside the workspace** instead of forcing users to leave.
+
+Everything must be editable, deletable, reorderable and sortable.
+
+---
+
+# 18. STRATEGY
+
+Strategy should feel like strategic thinking, not project management.
+
+Include:
+
+* Strategic challenge
+* Opportunity
+* Objectives
+* Audience strategy
+* Positioning
+* Strategic route
+* Strategic priorities
+* Funnel
+* Measurement
+* Six-month plan
+* Campaign relationships
+* Channel role
+* Rationale / “Why this route?”
+
+The funnel must be editable.
+
+The six-month roadmap should support:
+
+**Month → Objective → Focus → Campaigns → Channels → Milestones → Intended outcome → Dependencies**
+
+Do not force all of this into a table.
+
+Use a visual roadmap with drill-down capability.
+
+---
+
+# 19. CAMPAIGNS & LAUNCHES
+
+This is where strategy becomes executable.
+
+Each campaign should contain:
+
+* Objective
+* Strategic role
+* Audience
+* Big idea
+* Key message
+* Channels
+* Timeline
+* Deliverables
+* Creative direction
+* Content
+* Production
+* Budget
+* Approvals
+* Assets
+* Results
+
+Campaign stages:
+
+**Concept → Planning → Production → Approval → Live → Completed**
+
+Campaigns should connect into:
+
+Strategy
+Content Calendar
+Creative & Production
+Assets
+Scope
+Decisions
+
+---
+
+# 20. CONTENT CALENDAR
+
+Create a real editorial planning system.
+
+Support:
+
+**Month view
+Week view
+List view
+Board view**
+
+Content fields:
+
+* Date
+* Platform
+* Format
+* Campaign
+* Content territory
+* Objective
+* Topic
+* Creative direction
+* Copy
+* CTA
+* Asset
+* Owner
+* Status
+* Approval
+* Publish date
+
+Statuses:
+
+**Idea → Planned → In Production → Internal Review → Client Review → Approved → Scheduled → Published**
+
+Posts must be draggable.
+
+Move a post from Tuesday to Friday by dragging it.
+
+Support sort and filter by multiple dimensions.
+
+Allow entries to be edited, duplicated, deleted and moved.
+
+---
+
+# 21. CREATIVE & PRODUCTION
+
+This should feel like an actual creative production room.
+
+Support:
+
+### Brief
+
+* Objective
+* Background
+* Audience
+* Deliverables
+* Message
+* Creative direction
+* References
+
+### Production
+
+* Shoot date
+* Location
+* Talent
+* Photographer
+* Videographer
+* Stylist
+* Producer
+* Vendors
+* Call sheet
+* Schedule
+
+### Review
+
+* Versions
+* Feedback
+* Revision rounds
+* Approval
+* Final output
+
+Link approved outputs directly into **Assets**.
+
+---
+
+# 22. ASSETS
+
+Assets are not the same thing as Files.
+
+Assets are creative material:
+
+* Images
+* Videos
+* Logos
+* Brand assets
+* Campaign creative
+* Social assets
+* Website assets
+* Final deliverables
+
+Support:
+
+* Preview
+* Versioning
+* Search
+* Filters
+* Collections
+* Campaign association
+* Tags
+* Metadata
+* Reordering
+* Delete / archive
+
+Make this visually rich.
+
+Large visual previews should matter more than text-heavy metadata.
+
+---
+
+# 23. TEAM & PARTNERS
+
+Show:
+
+* Name
+* Role
+* Organisation
+* Responsibility
+* Contact
+* Relevant projects
+
+Separate agency team, client stakeholders and external partners visually.
+
+This should feel like an account network, not an employee directory.
+
+---
+
+# 24. SCOPE — CLIENT-FACING AND MUCH MORE DIMENSIONAL
+
+This is one of the most important areas.
+
+Do not make Scope a boring list of services.
+
+It should feel like a sophisticated **commercial relationship workspace**.
+
+The client should understand:
+
+**What they currently pay for
+What is included
+What we are currently delivering
+What is additional
+What is optional
+What has been approved
+What is pending
+What changed**
+
+Support:
+
+### Core recurring services
+
+Example:
+
+**Social Content**
+
+8 Reels / Month
+
+8 planned
+5 in production
+2 approved
+1 published
+
+This should dynamically connect to actual content and production data.
+
+Also support:
+
+* Packages
+* Custom services
+* Mix-and-match services
+* Optional services
+* Additional services
+* One-off projects
+* Recurring services
+* Quantities
+* Frequency
+* Deliverables
+* Commercial terms
+* Scope changes
+
+The user should be able to build a bespoke service mix.
+
+Example:
+
+> Strategy
+>
+> * 8 Reels / Month
+> * 12 Static Posts
+> * Monthly Shoot
+> * Website Creative
+> * One-off Launch Campaign
+
+The Scope page should dynamically reflect actual work.
+
+---
+
+# 25. INTERNAL MANAGEMENT — NEVER CLIENT-VISIBLE
+
+Anything commercially sensitive must be internal.
+
+Internal management can contain:
+
+* Agency budget
+* Vendor costs
+* Production costs
+* Margins
+* Profitability
+* Resource costs
+* Account health
+* Risks
+* Internal notes
+* Internal deadlines
+* Escalations
+* Resource planning
+* Capacity
+* Workload
+* Internal priorities
+* Sensitive strategy notes
+
+Clients must **never see this information**.
+
+Do not show locked previews of internal areas to clients.
+
+Do not show “Private · Internal Planning” in their navigation.
+
+For client users, these navigation items should simply **not exist**.
+
+The client-facing Scope experience is separate from internal commercial management.
+
+---
+
+# 26. DECISIONS
+
+Create a proper decision log.
+
+Each decision contains:
+
+* Decision
+* Context
+* Options
+* Final direction
+* Decision maker
+* Date
+* Area
+* Related campaign
+* Supporting files
+* Impact
+* Status
+
+Statuses:
+
+**Open
+Approved
+Rejected
+Superseded**
+
+Connect decisions to:
+
+Strategy
+Campaigns
+Creative
+Production
+Content
+Scope
+
+---
+
+# 27. FILES
+
+Files are a document repository.
+
+Support:
+
+* Decks
+* Presentations
+* Spreadsheets
+* PDFs
+* Reports
+* Briefs
+* Contracts
+* Working documents
+
+Features:
+
+* Folders
+* Search
+* Tags
+* Versions
+* Recent
+* Pinned
+* Project links
+* Ownership
+* Rename
+* Move
+* Delete
+* Archive
+
+Again: every file entry must be manageable.
+
+---
+
+# 28. NAVIGATION
+
+Do not overload the sidebar.
+
+Use thoughtful grouping, for example:
+
+### WORKSPACE
+
+Pulse / Current / chosen final name
+
+### BRAND
+
+Brand Guidelines
+Research
+Strategy
+
+### PLAN
+
+Campaigns & Launches
+Content Calendar
+
+### CREATE
+
+Creative & Production
+Assets
+Team & Partners
+
+### ACCOUNT
+
+Scope
+Decisions
+Files
+
+### INTERNAL
+
+Internal Management
+
+However:
+
+**Internal Management must not appear for clients.**
+
+Scope is client-facing.
+
+The client should see only the navigation areas explicitly permitted for their role.
+
+Do not expose hidden internal categories, even as locked navigation.
+
+---
+
+# 29. CROSS-PAGE RELATIONSHIPS MUST ACTUALLY WORK
+
+Do not build isolated pages.
+
+The system should understand relationships.
+
+For example:
+
+**Strategy**
+
+→ creates strategic priority
+
+→ informs Campaign
+
+→ Campaign creates Content
+
+→ Content creates Production
+
+→ Production creates Assets
+
+→ Asset appears in Content
+
+→ Content contributes toward Scope delivery
+
+→ Decisions can be linked at every stage
+
+This should be reflected in the UI.
+
+Clicking a campaign should reveal its related:
+
+Strategy
+Content
+Production
+Assets
+Decisions
+Scope
+
+The workspace should feel connected.
+
+---
+
+# 30. VISUAL DESIGN
+
+Start from a premium dark aesthetic, but refine it substantially.
+
+Use:
+
+* Sophisticated typography
+* Strong type hierarchy
+* Restrained borders
+* Generous spacing
+* Editorial layouts
+* Image-led composition
+* Subtle depth
+* Layered surfaces
+* Asymmetric layouts
+* Carefully selected accent colour
+* Elegant hover states
+* Fluid transitions
+* Drawers
+* Expandable content
+* Visual timelines
+* Contextual overlays
+* Rich previews
+
+Avoid:
+
+* Generic SaaS cards
+* Too many rounded rectangles
+* Excessive gradients
+* Glassmorphism everywhere
+* Neon glow
+* Huge CTA buttons
+* Fake analytics
+* Decorative charts
+* Empty metrics
+* Generic AI aesthetics
+* Excessive shadows
+* Identical layouts across every page
+
+---
+
+# 31. EVERY PAGE NEEDS ITS OWN VISUAL LANGUAGE
+
+Do not template the entire application as:
+
+Header
+→ 4 cards
+→ table
+→ button
+
+Instead:
+
+**Brand Guidelines**
+= digital editorial brand book
+
+**Research**
+= research intelligence / visual evidence system
+
+**Strategy**
+= strategic narrative + roadmap
+
+**Campaigns**
+= campaign operating room
+
+**Content Calendar**
+= editorial planning interface
+
+**Creative & Production**
+= production studio
+
+**Assets**
+= visual archive
+
+**Scope**
+= premium commercial document
+
+**Decisions**
+= decision record
+
+**Files**
+= document library
+
+**Pulse / Current**
+= living account snapshot
+
+Each needs a unique structure.
+
+---
+
+# 32. INTERACTIONS
+
+Prioritise useful interaction over decoration.
+
+Support:
+
+* Drag and drop
+* Reordering
+* Inline editing
+* Expandable sections
+* Side drawers
+* Detail panels
+* Quick actions
+* Hover previews
+* Image previews
+* Video embeds
+* Keyboard-friendly interactions
+* Search
+* Filters
+* Sorting
+* Column reordering
+* Row reordering
+* Bulk selection where useful
+* Duplicate
+* Delete
+* Archive
+* Undo
+* Comments
+* Approval states
+
+---
+
+# 33. EDITING SHOULD FEEL NATURAL
+
+Do not make every change require navigating to another page.
+
+Where appropriate, support:
+
+**Inline editing**
+
+**Quick add**
+
+**Edit drawer**
+
+**Drag to reorder**
+
+**Context menu**
+
+**Keyboard shortcut**
+
+For example:
+
+Click a colour → edit colour.
+
+Drag colour → reorder.
+
+More menu → remove.
+
+Click font → edit.
+
+More menu → delete.
+
+This logic should exist throughout the product.
+
+---
+
+# 34. EMPTY STATES
+
+Do not use generic:
+
+> “No data available.”
+
+Instead make empty states useful and human.
+
+Example:
+
+> **Nothing here yet. Let’s build it.**
+
+> **No campaigns are live right now. The next one starts here.**
+
+> **Your brand archive is still taking shape. Add the first reference.**
+
+Provide an appropriate contextual action.
+
+---
+
+# 35. REALISTIC CONTENT
+
+Use realistic agency/client content to demonstrate the experience.
+
+Do not populate the interface with:
+
+“Project A”
+
+“Task 1”
+
+“Campaign X”
+
+“Example User”
+
+Use believable brand, campaign, production and strategy content.
+
+Make the workspace feel alive even in the prototype.
+
+---
+
+# 36. PERMISSIONS
+
+Support at least:
+
+### Admin / Agency
+
+Full access.
+
+### Agency Team
+
+Access based on responsibility.
+
+### Client
+
+Access only to approved client-facing areas.
+
+Clients must not see:
+
+Internal management
+Agency profitability
+Vendor economics
+Internal notes
+Sensitive planning
+Internal risks
+Internal workload
+
+Scope is client-facing.
+
+---
+
+# 37. RESPONSIVENESS
+
+The application must work elegantly across:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+Desktop should be the richest experience, but layouts must not collapse badly on smaller screens.
+
+---
+
+# 38. QUALITY BAR
+
+Before considering the redesign complete, audit every section for these questions:
+
+### Can I create something?
+
+### Can I edit it?
+
+### Can I delete it?
+
+### Can I move it?
+
+### Can I reorder it?
+
+### Can I sort it?
+
+### Can I filter it?
+
+### Can I search it?
+
+### Can I connect it to related work?
+
+### Can I understand what changed?
+
+### Can I tell what needs my attention?
+
+### Does this page feel designed specifically for its purpose?
+
+### Does the language sound like a real creative agency?
+
+### Does the interface feel premium?
+
+### Does it feel visually interesting?
+
+### Is there unnecessary information?
+
+### Is anything important buried?
+
+### Is any internal information exposed to the client?
+
+---
+
+# FINAL DESIGN INTENT
+
+Do not simply add these features to the existing UI.
+
+**Rethink the product.**
+
+The goal is to create something that feels like:
+
+> **the digital home of an agency + client relationship.**
+
+The first page should make someone think:
+
+> **“Okay. I get the brand. I know what’s happening. I know what’s next. Let’s get started.”**
+
+And every subsequent page should make the work feel more tangible, connected and alive.
+
+The experience should combine:
+
+**the intimacy of a brand book
+
+* the clarity of a strategic plan
+* the energy of a creative studio
+* the usefulness of an operating system
+* the polish of a premium digital product.**
+
+Do not optimise for “more features”.
+
+Optimise for:
+
+**clarity + character + control + connection + movement.**
+
+And above all:
+
+**Nothing the user creates should become trapped in the system.
+Everything should be editable, deletable, movable, reorderable, searchable and sortable where appropriate.**

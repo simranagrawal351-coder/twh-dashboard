@@ -1,0 +1,7 @@
+import { access,canWrite } from '../../server/access';
+import { recordsFor,getRecord } from '../../server/records';
+import { configured,connection,syncRecord,type CalendarLink } from '../../server/google';
+import { recordsDb } from '../../../db/records';
+import { json,failure,sameOrigin } from '../../server/http';
+export async function GET(){try{const a=await access();if(!a)return json({error:'Sign in first'},401);const ids=new Set((await recordsFor(a)).map(r=>r.id));const links=(await recordsDb().prepare('SELECT * FROM calendar_links').all<CalendarLink>()).results.filter(l=>ids.has(l.record_id));return json({configured:configured(),connected:await connection(),links});}catch(e){return failure(e)}}
+export async function POST(req:Request){try{const a=await access();if(!a||a.role==='client'||!sameOrigin(req))return json({error:'Calendar editing access required'},403);const body=await req.json() as {id?:string;field?:string;choice?:'workspace'|'google'};if(body.choice&&!['workspace','google'].includes(body.choice))return json({error:'Invalid conflict choice'},400);const items=body.id?[await getRecord(body.id)]:(await recordsFor(a)).filter(r=>r.calendarSync==='yes');for(const r of items){if(!r||!canWrite(a,r))continue;await syncRecord(r,a,new URL(req.url).origin,body.field&&body.choice?{field:body.field,choice:body.choice}:undefined);}return json({ok:true,records:await recordsFor(a)});}catch(e){return failure(e)}}

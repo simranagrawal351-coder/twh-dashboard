@@ -1,0 +1,290 @@
+39. SOURCE OF TRUTH — CANVA REFERENCES MUST DRIVE THE EXPERIENCE
+This workspace must be designed around the existing Plutonic and TWH source materials available in Canva.
+Do not invent a visual identity, brand language, brand information, service structure or commercial information when relevant source material already exists in these Canva decks.
+VISUAL DESIGN SOURCE OF TRUTH — PLUTONIC CANVA DECKS
+For the visual design, art direction, layout language, typography inspiration, colour treatment, composition, visual rhythm, image treatment and overall premium aesthetic:
+Always refer to the Plutonic decks available in Canva.
+Treat the existing Plutonic Canva decks as the primary visual reference system for this product.
+The goal is NOT to blindly copy individual slides.
+Instead:
+Study the visual language.
+Study typography.
+Study spacing.
+Study composition.
+Study colour relationships.
+Study image treatment.
+Study hierarchy.
+Study editorial rhythm.
+Study how information is presented.
+Study the overall feeling of the Plutonic brand.
+Then translate those principles into a functional digital product.
+The interface should feel like it belongs to the same world as Plutonic.
+Do not default to generic SaaS design patterns when the Plutonic decks provide a stronger reference.
+BRAND / CLIENT CONTEXT SOURCE OF TRUTH — TWH CANVA DECKS
+For any information, context, positioning, language, product information, furniture-related information, brand story, audience, offering, references or strategic context relating to TWH / The Whole House / the TWH furniture business, refer to the relevant TWH decks available in Canva.
+There may be multiple TWH decks.
+Use any relevant TWH Canva deck that contains information about the furniture business.
+These decks should be treated as the primary source of truth for TWH-specific information.
+Do not fabricate TWH information simply to populate the interface.
+If the available TWH decks do not contain a particular piece of information, leave the field open for the user/admin to add it rather than inventing information.
+Where multiple TWH decks contain relevant information, use the most contextually relevant material and preserve the terminology used by the source material.
+RATES, SERVICES & COMMERCIAL INFORMATION — PLUTONIC SOURCE OF TRUTH
+For:
+Rates
+Service pricing
+Service names
+Packages
+Retainers
+Deliverables
+Quantities
+Frequencies
+Commercial structures
+Optional services
+One-off services
+Scope structures
+Rate-card information
+refer to the Plutonic rate cards and Plutonic decks available in Canva.
+Do not invent pricing.
+Do not make up packages.
+Do not infer commercial terms when the source material does not support them.
+The Scope section should be structured so that these source materials can eventually populate and update the commercial layer dynamically.
+Where pricing or service information is missing, provide an editable field rather than fabricated information.
+40. EXTERNAL DATA & LIVE SYNC — DESIGN FOR A CONNECTED WORKSPACE
+This product must NOT be designed as a standalone static application.
+Everything should be architected so that external sources can eventually become connected sources of truth.
+The workspace must be built with a clear separation between:
+Source Data → Sync Layer → Workspace Database → UI
+The UI should never be treated as the only place where information exists.
+GOOGLE DRIVE / GOOGLE SHEETS INTEGRATION
+The system must be designed to connect to:
+Google Drive
+Google Sheets
+Excel files stored in Google Drive
+Other approved client data sources
+Future APIs and external systems
+The architecture must support external files becoming live data sources.
+For example:
+Client updates the monthly deliverables Excel/Google Sheet.
+↓
+Integration detects the change.
+↓
+Data is validated and mapped to the correct workspace fields.
+↓
+Workspace database is updated.
+↓
+Dashboard reflects the new information.
+The objective is:
+Update once at the source → reflect everywhere.
+LIVE DATA REFLECTION
+If a client changes information in a connected spreadsheet, the corresponding information in the workspace should update automatically.
+Example:
+Client changes:
+Social Content — Monthly Quantity
+from:
+8 Reels
+to:
+10 Reels
+The system should update all relevant places where that data is used, including where appropriate:
+Scope
+Deliverables
+Campaign planning
+Content planning
+Production planning
+Pulse / Current
+Progress indicators
+Relevant summaries
+Do not require the user to manually enter the same information multiple times.
+SOURCE-OF-TRUTH RULES
+Every externally connected dataset must have a clearly defined source of truth.
+For example:
+Client spreadsheet → commercial quantities
+Plutonic rate card → service pricing
+TWH Canva decks → brand and furniture context
+Workspace → operational execution
+The system must know which source controls which field.
+Do not create situations where the same piece of information can silently diverge across multiple systems.
+FIELD MAPPING
+Every external data source should have a mapping layer.
+For example:
+External Source	External Field	Workspace Field
+Client Sheet	Service	Scope → Service
+Client Sheet	Quantity	Scope → Quantity
+Client Sheet	Frequency	Scope → Frequency
+Client Sheet	Start Date	Scope → Start Date
+Client Sheet	Status	Deliverables → Status
+Client Sheet	Campaign	Campaign → Campaign
+Client Sheet	Publish Date	Content → Publish Date
+The actual fields should be configurable by an admin.
+Do not hard-code the system so that only one spreadsheet structure can ever work.
+41. SYNC ARCHITECTURE
+Build the product so it can support both:
+Automatic sync
+When the connected source changes, update the workspace automatically.
+Manual sync
+Provide an admin-level:
+Sync now
+action as a fallback.
+Show:
+Last synced
+Source
+Sync status
+Records updated
+Records added
+Records removed
+Records requiring attention
+Sync errors
+Do not make synchronization invisible.
+42. CHANGE DETECTION
+The system should detect when connected information changes.
+For every synced record, maintain appropriate metadata such as:
+Source
+Source record ID
+Last synced
+Last modified externally
+Last modified internally
+Sync status
+Version where relevant
+When a source changes, only the affected records should need to update.
+Do not unnecessarily rebuild the entire workspace.
+43. CONFLICT HANDLING
+The system must account for situations where:
+Client changes the spreadsheet
+while
+Agency changes the same information inside the workspace.
+Do not silently overwrite data.
+Instead, surface a clear conflict state.
+For example:
+This changed in the client sheet.
+Workspace value: 8 Reels
+Client sheet value: 10 Reels
+Then provide appropriate options:
+Use client value
+Keep workspace value
+Review changes
+The exact conflict behaviour should depend on the configured source-of-truth rule.
+44. DATA PROVENANCE
+Where useful, users should be able to understand where information came from.
+For externally sourced information, provide subtle contextual metadata such as:
+Synced from Client Sheet · 12 min ago
+or:
+Source: Plutonic Rate Card
+or:
+Source: TWH Brand Deck
+The provenance should not clutter the interface.
+It should simply make the system trustworthy.
+45. INTEGRATION-READY DATABASE DESIGN
+Do not build the prototype with disconnected hard-coded values.
+Even if the first version uses sample data, structure the underlying data model as though real integrations will eventually be connected.
+Use stable IDs and relationships between:
+Clients
+Brands
+Services
+Scope items
+Campaigns
+Deliverables
+Content
+Production items
+Assets
+Decisions
+Files
+People
+External sources
+External records
+Every synced record should be capable of being associated with its originating external record.
+46. GOOGLE DRIVE FILE HANDLING
+The Files section should eventually support connected Google Drive sources.
+When a Google Drive folder is connected:
+Detect relevant files.
+Display them inside the workspace.
+Preserve source links.
+Track the original file.
+Reflect updated versions where appropriate.
+Avoid unnecessary duplication.
+Make it clear which files are externally sourced.
+If a client replaces or updates a connected file, the workspace should be able to detect that change.
+Do not create a disconnected duplicate that immediately becomes stale.
+47. SPREADSHEET-FIRST CLIENT WORKFLOW
+Assume that some clients will continue working primarily in Excel or Google Sheets rather than inside the workspace.
+The product must accommodate that behaviour.
+The client should NOT be forced to manually duplicate information into the dashboard.
+For example:
+Client updates spreadsheet.
+↓
+Workspace receives the update.
+↓
+Relevant records change.
+↓
+Pulse updates.
+↓
+Scope updates.
+↓
+Campaign/content/production information updates where connected.
+The dashboard should become the visual operating layer on top of the client's existing working data, rather than requiring the client to abandon their existing workflow.
+48. INTEGRATION SETTINGS
+Create an admin-only integrations area where the agency can configure:
+Connected Sources
+Google Drive
+Google Sheets
+Excel
+Future integrations
+For each connection show:
+Connected / Not connected
+Source
+Last sync
+Sync frequency
+Fields mapped
+Records synced
+Errors
+Disconnect
+Sync now
+49. IMPORTANT — DO NOT FAKE INTEGRATIONS
+For the prototype, do NOT pretend that Google Drive, Google Sheets or Excel are actually connected if they are not.
+If an integration has not yet been implemented:
+show the intended integration state clearly, but do not fabricate live data.
+The product should distinguish between:
+Prototype data
+Connected data
+Synced data
+Manually entered data
+This distinction is critical for trust.
+50. FUTURE INTEGRATION PRINCIPLE
+Every major data object should be designed with future external connectivity in mind.
+The architecture should make it possible to later connect:
+Google Drive
+Google Sheets
+Excel
+Canva
+Slack
+Email
+Project-management systems
+CRM systems
+Analytics platforms
+Other client systems
+Do not build the product in a way that requires rebuilding the database or UI every time a new integration is introduced.
+The goal is:
+One workspace. Multiple sources. One connected operating picture.
+51. SOURCE HIERARCHY
+When information is available from multiple places, establish a clear hierarchy.
+Visual language
+Plutonic Canva decks
+TWH brand / furniture context
+Relevant TWH Canva decks
+Rates and services
+Plutonic rate cards + Plutonic decks
+Client operational data
+Connected client spreadsheets / Google Drive sources
+Agency operational data
+Workspace
+Never silently replace authoritative source information with generated assumptions.
+If the system cannot determine the correct source, flag the ambiguity for an admin.
+52. FINAL INTEGRATION INTENT
+The finished product should eventually behave like this:
+Canva gives the workspace its visual and brand intelligence.
+Client-connected files give it live operational data.
+The workspace turns that information into an intelligent, beautiful agency operating environment.
+The user should never feel that they are maintaining five separate versions of the same information.
+The system should make the relationship between:
+Source → Data → Work → Progress → Client View
+visible and connected.
+The ultimate principle is:
+The dashboard should not just display information. It should stay in sync with wher
